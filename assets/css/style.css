@@ -3,19 +3,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
 
 /*Astericks wildcard selector to overide defalt styles by the browser*/
-*{ padding: 0;
-    margin:0 ;
+* {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
 
 /*General Styles*/
 body {
-        min-height: 100vh;
-        display: flex;
-        flex-direction: column;
-        /*project styles*/
-        font-family:"Roboto Mono", sans-serif ;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /*project styles*/
+    font-family: "Roboto Mono", sans-serif;
 
 
 }
@@ -23,24 +24,69 @@ body {
 
 
 /*Header*/
-header {background-color: #093f7d;
-        color:#f6f7f2 ;
-        font-size:30px;
-        padding: 0 1rem;
-        position: fixed;
-h1 {font-family:"Roboto Mono", sans-serif ;
+header {
+    background-color: #272b54;
+    color: #f6f7f2;
+    font-size: 30px;
+    padding: 0 1rem;
+    position: fixed;
     z-index: 99;
     width: 100%;
+    box-shadow: 0 4px 4px #4d4f47;
+
 
 }
+
+header a {
+    text-decoration: none;
+    color: inherit;
+   
+
 }
+
+h1 {
+    font-family: "Roboto Mono", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+
+}
+
+
+#menu {
+    font-size: 112%;
+    letter-spacing: 3.5px;
+    list-style-type: none;
+
+}
+
+#menu>li {
+    margin-bottom: 1.2em;
+    
+
+}
+
+div {
+    width: 19px;
+    height: 7px;
+    background: #f6f7f2;
+    transition: width 2s;
+    
+}
+div:hover{
+    width: 200px;
+} 
+
+
 /*main*/
-main {background-color:#f6f7f2 ;
-      /*main element takes up whole page*/
-      flex: 1 0 auto;
+main {
+    background-color: #f6f7f2;
+    /*main element takes up whole page*/
+    flex: 1 0 auto;
 }
+
 /*footer*/
-footer {background-color: #093f7d;
-        color: #f6f7f2;
-        size: 16px;
+footer {
+    background-color: #272b54;
+    color: #f6f7f2;
+    size: 16px;
 }
