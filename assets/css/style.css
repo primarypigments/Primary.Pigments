@@ -1,0 +1,27 @@
+/*Astericks wildcard selector to overide defalt styles by the browser*/
+*{ padding: 0;
+    margin:0 ;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+/*Header*/
+header {background-color: #093f7d;
+        color:#f6f7f2 ;
+        font-size: 70px
+    ;
+
+}
+/*main*/
+main {background-color:#f6f7f2 ;
+
+}
+/*footer*/
+footer {background-color: #093f7d;
+        color: #f6f7f2;
+        size: 16px;
+}
