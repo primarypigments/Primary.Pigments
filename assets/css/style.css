@@ -33,6 +33,9 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 4px 4px #4d4f47;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 
 
 }
@@ -73,7 +76,18 @@ nav{
     padding: 0 1rem;
     box-shadow: 0 4px 4px #4d4f47;
     display: none;
+    top: 100%;
     
+}
+#navbar-toggle:checked~nav {
+                                display: block;
+
+}
+#navbar-toggle {
+    display: none;
+}
+.navbar-toggle-label{
+    font-size: 3rem;
 }
 
 div {
@@ -93,6 +107,8 @@ main {
     background-color: #f6f7f2;
     /*main element takes up whole page*/
     flex: 1 0 auto;
+    margin-top: 49px;
+    
 }
 
 /*footer*/
