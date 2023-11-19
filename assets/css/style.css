@@ -60,9 +60,20 @@ h1 {
 }
 
 #menu>li {
-    margin-bottom: 1.2em;
+    margin-bottom: 1.9em;
     
 
+}
+
+nav{
+    position: absolute;
+    background-color: #272b54;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 4px 4px #4d4f47;
+    display: none;
+    
 }
 
 div {
