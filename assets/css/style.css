@@ -78,6 +78,7 @@ nav {
     display: none;
     top: 100%;
 
+
 }
 
 #navbar-toggle:checked~nav {
@@ -97,7 +98,6 @@ nav {
 /*main creavtie self help */
 main {
     background-color: #f6f7f2;
-    /*main element takes up whole page*/
     flex: 1 0 auto;
     margin-top: 100px;
 
@@ -106,10 +106,25 @@ main {
 /*footer contact social media*/
 footer {
     background-color: #272b54;
-    color: #f6f7f2;
-    size: 16px;
-    margin-top: 100px;
+
 }
+
+#online-community {
+    text-align: center;
+    padding: 20 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+
+}
+
+#online-community i {
+    font-size:155% ;
+    padding:6%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
 
 
 /*  Tablets and up */
@@ -119,28 +134,46 @@ footer {
         display: block;
         position: relative;
         box-shadow: none;
-        width:100rem;
+        width: 100rem;
         padding-right: 1rem;
 
-        
+
     }
-    li{
+
+    /*give navbar better spacing*/
+    li {
         width: fit-content;
         padding-left: 5rem;
         padding-right: 5rem;
     }
-     
+
 
     #navbar {
         display: flex;
     }
-    #navbar > li{
-        padding-left:1rem ;
-    }
-        
 
-.navbar-toggle-label {
-    display: none;
-}   
+    #navbar>li {
+        padding-left: 1rem;
+    }
+
+
+    .navbar-toggle-label {
+        display: none;
+
+    }
+
+    /*fixes content lost uner heading*/
+    main {
+        margin-top: 115px;
+
+    }
 }
-    
+
+/*laptops and up*/
+@media screen and (min-width: 992px) {
+
+    div:hover {
+        text-decoration: underline;
+
+    }
+}
