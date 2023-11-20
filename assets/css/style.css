@@ -43,7 +43,7 @@ header {
 header a {
     text-decoration: none;
     color: inherit;
-   
+
 
 }
 
@@ -55,20 +55,20 @@ h1 {
 }
 
 
-#menu {
+#navbar {
     font-size: 112%;
     letter-spacing: 3.5px;
     list-style-type: none;
 
 }
 
-#menu>li {
+#navbar>li {
     margin-bottom: 1.9em;
-    
+
 
 }
 
-nav{
+nav {
     position: absolute;
     background-color: #272b54;
     width: 100%;
@@ -77,43 +77,70 @@ nav{
     box-shadow: 0 4px 4px #4d4f47;
     display: none;
     top: 100%;
-    
-}
-#navbar-toggle:checked~nav {
-                                display: block;
 
 }
+
+#navbar-toggle:checked~nav {
+    display: block;
+
+}
+
 #navbar-toggle {
     display: none;
 }
-.navbar-toggle-label{
+
+.navbar-toggle-label {
     font-size: 3rem;
 }
 
-div {
-    width: 19px;
-    height: 7px;
-    background: #f6f7f2;
-    transition: width 2s;
-    
-}
-div:hover{
-    width: 200px;
-} 
 
-
-/*main*/
+/*main creavtie self help */
 main {
     background-color: #f6f7f2;
     /*main element takes up whole page*/
     flex: 1 0 auto;
     margin-top: 100px;
-    
+
 }
 
-/*footer*/
+/*footer contact social media*/
 footer {
     background-color: #272b54;
     color: #f6f7f2;
     size: 16px;
+    margin-top: 100px;
 }
+
+
+/*  Tablets and up */
+@media screen and (min-width: 768px) {
+
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width:100rem;
+        padding-right: 1rem;
+
+        
+    }
+    li{
+        width: fit-content;
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+     
+
+    #navbar {
+        display: flex;
+    }
+    #navbar > li{
+        padding-left:1rem ;
+    }
+        
+
+.navbar-toggle-label {
+    display: none;
+}   
+}
+    
