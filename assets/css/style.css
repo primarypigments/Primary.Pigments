@@ -150,6 +150,8 @@ footer {
         box-shadow: none;
         width: 100rem;
         padding-right: 1rem;
+        flex-basis: fit-content;
+
 
 
     }
