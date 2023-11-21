@@ -20,7 +20,10 @@ body {
 
 
 }
-h1, h2, h3 {
+
+h1,
+h2,
+h3 {
     font-family: "Roboto Mono", sans-serif;
     text-transform: uppercase;
     letter-spacing: 1.5px;
@@ -102,39 +105,46 @@ nav {
 
 /*main creavtie self help */
 main {
-    background: linear-gradient(90deg, rgba(240,239,239,1) 0%, rgba(246,247,242,1) 22%, rgba(236,242,228,1) 100%, rgba(246,247,242,1) 100%);
+    background: linear-gradient(90deg, rgba(240, 239, 239, 1) 0%, rgba(246, 247, 242, 1) 22%, rgba(236, 242, 228, 1) 100%, rgba(246, 247, 242, 1) 100%);
     flex: 1 0 auto;
     margin-top: 115px;
 
 }
+
 /*coping img section*/
 #coping {
     height: 600px;
     width: 100%;
-    box-shadow: 2px 2px 2px 2px #4d4f47 ;
+    box-shadow: 2px 2px 2px 2px #4d4f47;
     background: url("../images/hero-img.jpg") no-repeat center center/cover;
     position: relative;
-    
+
 }
+
 #coping-text {
     background-color: rgba(61, 216, 255, 0.54);
     font-size: 140%;
     position: absolute;
     bottom: 33px;
     width: 75%;
-    padding: 30px 0 0 10px;
+    padding: 20px 20px 10px 20px;
     min-height: 170px;
+    border-radius: 25%;
+    text-align: center;
+    right: 20px;
 
 }
 
-#coping-text h2, h3 {
+#coping-text h2,
+h3 {
     color: #f6f7f2;
 }
+
 /*footer contact social media*/
 footer {
     background-color: #272b54;
     color: #f6f7f2;
-    
+
 }
 
 .social {
@@ -152,8 +162,8 @@ footer {
 }
 
 #online-community i {
-    font-size:155% ;
-    padding:6%;
+    font-size: 155%;
+    padding: 6%;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
@@ -173,8 +183,8 @@ footer {
         flex-basis: fit-content;
 
 
-
     }
+
 
     /*give navbar better spacing*/
     li {
@@ -198,8 +208,22 @@ footer {
 
     }
 
-    
+
+    /*body, main, coping text*/
+    main {
+        position: none;
+        margin: 0;
+    }
+
+    #coping-text {
+        width: 30%;
+        right: 55px;
+        text-align: center;
+        border-radius: 25%;
+    }
+
 }
+
 
 /*laptops and up*/
 @media screen and (min-width: 992px) {
@@ -208,5 +232,13 @@ footer {
         text-decoration: underline;
 
     }
+
+    /*body, main, coping text*/
+
+
+    #coping-text {
+        width: 25%;
+        right: 55px;
+        border-radius: 25%;
+    }
 }
-    
