@@ -178,18 +178,15 @@ footer {
 
     }
 
-    /*fixes content lost uner heading*/
-    main {
-        margin-top: 115px;
 
-    }
 }
 
 /*laptops and up*/
 @media screen and (min-width: 992px) {
 
-    div:hover {
+    .ready:hover {
         text-decoration: underline;
 
+    }
     }
     
