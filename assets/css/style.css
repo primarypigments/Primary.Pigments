@@ -107,7 +107,7 @@ main {
     height: 600px;
     width: 100%;
     box-shadow: 2px 2px 2px 2px #4d4f47 ;
-    background: url(../Images/coping-with-depression-a-guide-to-good-treatment-1440x810.jpg)no-repeat center center/cover;
+    background: url("../images/hero-img.jpg") no-repeat center center/cover;
     
 }
 
