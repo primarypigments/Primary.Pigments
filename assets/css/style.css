@@ -308,11 +308,10 @@ footer {
         /* Why and goals pic and text*/
 
         .why-text {
-            margin-top: 100px;
             width: 70%;
             text-align: justify;
             margin: auto;
-            padding: 100px;
+            padding: 100px 10px 100px 10px;
 
         }
 
