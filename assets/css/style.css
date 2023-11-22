@@ -145,184 +145,184 @@ h3 {
 
 #why {
     background: linear-gradient(90deg, rgba(240, 239, 239, 1) 0%, rgba(246, 247, 242, 1) 22%, rgba(236, 242, 228, 1) 100%, rgba(246, 247, 242, 1) 100%);
-    
-    
-    
-    
+
+
+
+
+}
+
+.why-text-heading {
+    margin-top: 65px;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    color: #272b54;
+    font-size: 45px;
+    padding: 100px 10px 100px 10px;
+
+
+}
+
+.why-text {
+    margin-top: 65px;
+    width: 70%;
+    text-align: justify;
+    margin: auto;
+    color: #272b54;
+    font-weight: 300;
+    text-transform: none;
+
+    padding: 50px 10px 50px 10px;
+
+}
+
+#goals-img {
+    margin: auto;
+    padding: 100px 10px auto;
+    width: 70%;
+    height: 200px;
+    background: url(../images/goals-img.jpg) no-repeat center center/cover;
+
+}
+
+/*footer contact social media*/
+footer {
+    background-color: #272b54;
+    color: #f6f7f2;
+    margin-top: 500px #f6f7f2;
+
+
+}
+
+.social {
+    color: #f6f7f2;
+}
+
+
+#online-community {
+    text-align: center;
+    padding: 20 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+
+}
+
+#online-community i {
+    font-size: 155%;
+    padding: 6%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+
+/*  Tablets and up */
+@media screen and (min-width: 768px) {
+
+
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: 100rem;
+        padding-right: 1rem;
+        flex-basis: fit-content;
+
+
     }
-    
-    .why-text-heading {
-        margin-top: 65px;
-        width: 70%;
+
+
+    /*give navbar better spacing*/
+    li {
+        width: fit-content;
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
+
+    #navbar {
+        display: flex;
+    }
+
+    #navbar>li {
+        padding-left: 1rem;
+    }
+
+
+    .navbar-toggle-label {
+        display: none;
+
+    }
+
+
+    /*body, main, coping text*/
+    main {
+        position: none;
+        margin: 0;
+    }
+
+    #coping-text {
+        width: 30%;
+        right: 55px;
         text-align: center;
-        margin: auto;
-        color: #272b54;
-        font-size: 45px;
-        padding: 100px 10px 100px 10px;
-    
-    
+        border-radius: 25%;
     }
-    
+
     .why-text {
-        margin-top: 65px;
+        margin-top: 100px;
         width: 70%;
         text-align: justify;
         margin: auto;
-        color: #272b54;
-        font-weight: 300;
-        text-transform: none;
-    
-        padding: 50px 10px 50px 10px;
-    
+        padding: 50px 50px 100px 50px;
     }
-    
+
     #goals-img {
         margin: auto;
-        padding: 100px 10px auto;
+        padding: 100px 10px 100px 10px;
         width: 70%;
-        height: 200px;
+        height: 700px;
         background: url(../images/goals-img.jpg) no-repeat center center/cover;
-    
+
+
     }
-    
-    /*footer contact social media*/
-    footer {
-        background-color: #272b54;
-        color: #f6f7f2;
-        margin-top: 500px #f6f7f2;
-    
-    
-    }
-    
-    .social {
-        color: #f6f7f2;
-    }
-    
-    
-    #online-community {
-        text-align: center;
-        padding: 20 0;
-        display: flex;
-        justify-content: space-evenly;
-        list-style-type: none;
-    
-    }
-    
-    #online-community i {
-        font-size: 155%;
-        padding: 6%;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-    }
-    
-    
-    
-    /*  Tablets and up */
-    @media screen and (min-width: 768px) {
-    
-    
-        nav {
-            display: block;
-            position: relative;
-            box-shadow: none;
-            width: 100rem;
-            padding-right: 1rem;
-            flex-basis: fit-content;
-    
-    
+
+
+    /*laptops and up*/
+    @media screen and (min-width: 992px) {
+
+        .ready:hover {
+            text-decoration: underline;
+
         }
-    
-    
-        /*give navbar better spacing*/
-        li {
-            width: fit-content;
-            padding-left: 5rem;
-            padding-right: 5rem;
-        }
-    
-    
-        #navbar {
-            display: flex;
-        }
-    
-        #navbar>li {
-            padding-left: 1rem;
-        }
-    
-    
-        .navbar-toggle-label {
-            display: none;
-    
-        }
-    
-    
+
         /*body, main, coping text*/
-        main {
-            position: none;
-            margin: 0;
-        }
-    
+
+
         #coping-text {
-            width: 30%;
+            width: 25%;
             right: 55px;
-            text-align: center;
             border-radius: 25%;
         }
-    
+
+        /* Why and goals pic and text*/
+
         .why-text {
             margin-top: 100px;
             width: 70%;
             text-align: justify;
             margin: auto;
-            padding: 50px 50px 100px 50px;
+            padding: 100px;
+
         }
-    
-        #goals-img {
-            margin: auto;
-            padding: 100px 10px 100px 10px;
+
+        #goals {
+            margin-top: 100px;
             width: 70%;
             height: 700px;
             background: url(../images/goals-img.jpg) no-repeat center center/cover;
-    
-    
+
+
+
         }
-    
-    
-        /*laptops and up*/
-        @media screen and (min-width: 992px) {
-    
-            .ready:hover {
-                text-decoration: underline;
-    
-            }
-    
-            /*body, main, coping text*/
-    
-    
-            #coping-text {
-                width: 25%;
-                right: 55px;
-                border-radius: 25%;
-            }
-    
-            /* Why and goals pic and text*/
-    
-            .why-text {
-                margin-top: 100px;
-                width: 70%;
-                text-align: justify;
-                margin: auto;
-                padding: 100px;
-    
-            }
-    
-            #goals {
-                margin-top: 100px;
-                width: 70%;
-                height: 700px;
-                background: url(../images/goals-img.jpg) no-repeat center center/cover;
-    
-    
-    
-            }
-        }
+    }
