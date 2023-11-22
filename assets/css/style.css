@@ -269,4 +269,20 @@ footer {
         right: 55px;
         border-radius: 25%;
     }
+/* Why and goals pic and text*/
+
+.why-text {
+    margin-top: 100px;
+    width: 70%;
+    text-align: center;
+
+}
+#goals {
+    margin-top: 100px;
+    width: 70%;
+    height: 700px;  
+    background: url(../images/goals-img.jpg) no-repeat center center/cover;
+
+
+
 }
