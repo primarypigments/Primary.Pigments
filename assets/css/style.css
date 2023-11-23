@@ -193,6 +193,7 @@ h3 {
     background: url(../images/meetings-img.jpg) no-repeat center center/cover;
 
 }
+
 /*footer contact social media*/
 footer {
     background-color: #272b54;
@@ -223,7 +224,35 @@ footer {
     padding-bottom: 1rem;
 }
 
-  
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Gallery Content*/
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gallery-image {
+
+    width: 32%;
+    
+    /* Same as width, sets height */
+    margin-bottom: 2%;
+    /* (100-32*3)/2 */
+    position: relative;
+    
+}
+
+.gallery-image img {
+  object-fit: contain;
+  object-position: center;
+  height: 200px;
+  height: 200px;
+  margin-left: 20px;
+}
+
+.
 /*  Tablets and up */
 @media screen and (min-width: 768px) {
 
@@ -275,7 +304,8 @@ footer {
         text-align: center;
         border-radius: 25%;
     }
-/* Why text ang images*/
+
+    /* Why text ang images*/
     .why-text {
         margin-top: 100px;
         width: 50%;
@@ -292,7 +322,7 @@ footer {
         background: url(../images/goals-img.jpg) no-repeat center center/cover;
     }
 
-    
+
     #goals-img {
         margin: auto;
         padding: 100px 10px 100px 10px;
@@ -301,47 +331,49 @@ footer {
         background: url(../images/meetings-img.jpg) no-repeat center center/cover;
 
     }
+
+    }
 }
 
-    /*laptops and up*/
-    @media screen and (min-width: 992px) {
+/*laptops and up*/
+@media screen and (min-width: 992px) {
 
-        .ready:hover {
-            text-decoration: underline;
+    .ready:hover {
+        text-decoration: underline;
 
-        }
+    }
 
-        /*body, main, coping text*/
+    /*body, main, coping text*/
 
 
-        #coping-text {
-            width: 25%;
-            right: 55px;
-            border-radius: 25%;
-        }
+    #coping-text {
+        width: 25%;
+        right: 55px;
+        border-radius: 25%;
+    }
 
-        /* Why and goals pic and text*/
+    /* Why and goals pic and text*/
 
-        .why-text {
-            width: 50%;
-            text-align: justify;
-            margin: auto;
-            padding: 100px 10px 100px 10px;
+    .why-text {
+        width: 50%;
+        text-align: justify;
+        margin: auto;
+        padding: 100px 10px 100px 10px;
 
-        }
+    }
 
-        #goals-img {
-            margin-top: 100px;
-            width: 70%;
-            height: 700px;
-            background: url(../images/goals-img.jpg) no-repeat center center/cover;
-  }
+    #goals-img {
+        margin-top: 100px;
+        width: 70%;
+        height: 700px;
+        background: url(../images/goals-img.jpg) no-repeat center center/cover;
+    }
 
     #meetings-img {
-    margin-top: 100px;
-    width: 70%;
-    height: 700px;
-    background: url(../images/meetings-img.jpg) no-repeat center center/cover;
+        margin-top: 100px;
+        width: 70%;
+        height: 700px;
+        background: url(../images/meetings-img.jpg) no-repeat center center/cover;
 
     }
 }
