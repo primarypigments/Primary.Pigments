@@ -209,8 +209,9 @@ footer {
 
 
 #online-community {
+width: 100%;
     text-align: center;
-    padding: 20 0;
+    padding: 20 0 20 0;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
@@ -224,21 +225,28 @@ footer {
     padding-bottom: 1rem;
 }
 
-/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Gallery Content*/
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Gallery Page Content*/
 
 
 .gallery {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    width: 100%;
 }
 
-.gallery-image {
+.gallery-heading {
+    margin: auto;
+    margin-bottom: 100px;
+    text-align: center;
+    margin-top: 100px;
+    width: 100%;
+}
 
-    width: 32%;
-    
-    /* Same as width, sets height */
-    margin-bottom: 2%;
+
+.gallery-image {
+    margin: auto;
+     margin-bottom: 2%;
     /* (100-32*3)/2 */
     position: relative;
     
@@ -247,12 +255,12 @@ footer {
 .gallery-image img {
   object-fit: contain;
   object-position: center;
-  height: 200px;
-  height: 200px;
-  margin-left: 20px;
+  height: 270px;
+  width: 270px;
+ 
 }
 
-.
+
 /*  Tablets and up */
 @media screen and (min-width: 768px) {
 
@@ -332,8 +340,17 @@ footer {
 
     }
 
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Gallery Page Content */
+
+.gallery-heading {
+    margin: auto;
+    margin-bottom: 100px;
+    text-align: center;
+    margin-top: 205px;
+    width: 100%;
+
     }
-}
+
 
 /*laptops and up*/
 @media screen and (min-width: 992px) {
