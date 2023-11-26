@@ -111,6 +111,7 @@ main {
     flex: 1 0 auto;
     margin-top: 115px;
 
+
 }
 
 /*coping img section*/
@@ -176,6 +177,9 @@ h3 {
     padding: 50px 10px 50px 10px;
 
 }
+
+
+
 
 #goals-img {
     margin: auto;
@@ -484,6 +488,9 @@ width: 100%;
         padding: 50px 50px 100px 50px;
     }
 
+    
+    
+
     #goals-img {
         margin: auto;
         padding: 100px 10px 100px 10px;
@@ -493,7 +500,7 @@ width: 100%;
     }
 
 
-    #goals-img {
+    #meetings-img {
         margin: auto;
         padding: 100px 10px 100px 10px;
         width: 70%;
@@ -513,6 +520,7 @@ width: 100%;
 
     }
 
+}
 
 /*laptops and up*/
 @media screen and (min-width: 992px) {
