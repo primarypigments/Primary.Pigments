@@ -541,19 +541,5 @@ width: 100%;
 
     }
 
-    #goals-img {
-        margin-top: 100px;
-        width: 70%;
-        height: 700px;
-        background: url(../images/goals-img.jpg) no-repeat center center/cover;
-    }
-
-    #meetings-img {
-        margin-top: 100px;
-        width: 70%;
-        height: 700px;
-        background: url(../images/meetings-img.jpg) no-repeat center center/cover;
-
-    }
-}
+   
 }
