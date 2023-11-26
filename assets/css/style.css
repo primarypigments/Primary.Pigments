@@ -8,7 +8,10 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+    /* Hide Scrollbar*/
+html::-webkit-scrollbar {
+    display: none;
+}
 
 /*Gerneral Styles*/
 body {
@@ -17,7 +20,7 @@ body {
     flex-direction: column;
     /*project styles*/
     font-family: "Roboto Mono", sans-serif;
-    overflow: hidden;
+   
 
 
 }
@@ -430,7 +433,10 @@ width: 100%;
 /*  Tablets and up */
 @media screen and (min-width: 768px) {
 
-
+    /* Hide Scrollbar*/
+html::-webkit-scrollbar {
+    display: none;
+}
     nav {
         display: block;
         position: relative;
