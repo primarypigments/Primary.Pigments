@@ -203,6 +203,7 @@ h3 {
     background: url(../images/meetings-img.jpg) no-repeat center center/cover;
 
 }
+
 /*&&&%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Contact page*/
 body {
     background: #272b54;
@@ -243,49 +244,51 @@ body {
     margin-right: 10px;
     font-size: 14px;
 }
-/*Learn grouping from w3schools*/
+
+/*Learned grouping from w3schools*/
 .input_field .input,
 .input_field .textarea {
-   width: 100%;
-   outline: none;
-   border: 1.5px solid #f6f7f2;
-   font-size: 15px;
-   padding: 8px 10px;
-   border-radius: 5px;
-   /*Took me a while to firure transition correctly, youtube, w3schools*/
-   transition: all 2s ease;
+    width: 100%;
+    outline: none;
+    border: 1.5px solid #f6f7f2;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    /*Took me a while to firure transition correctly, youtube, w3schools*/
+    transition: all 2s ease;
 }
 
 
 /* IMPORTENT for Transition -border- */
- .input:focus,
- .textarea:focus,
- .custom_select select:focus {
-   border: 1px solid #272b54;
+.input:focus,
+.textarea:focus,
+.custom_select select:focus {
+    border: 1px solid #272b54;
 }
 
 .textarea {
-   width: 100%;
-   height: 125px;
-   resize: none;
+    width: 100%;
+    height: 125px;
+    resize: none;
 }
+
 /* Drop down menu*/
 .interest_select {
-   position: relative;
-   width: 100%;
-   height: 37px;
+    position: relative;
+    width: 100%;
+    height: 37px;
 }
 
 option {
-   font-family: "Roboto Mono", sans-serif;
+    font-family: "Roboto Mono", sans-serif;
 }
 
 
 .interest_select:before {
-   position: absolute;
-   top: 12px;
-   right: 10px;
-border: 8px solid;
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    border: 8px solid;
     border-color: #272b54;
     pointer-events: none;
 
@@ -371,6 +374,28 @@ footer {
     padding: 6%;
     padding-top: 1rem;
     padding-bottom: 1rem;
+}
+
+/*Submit Button*/
+
+.btn {
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 15px;
+    border: 0px;
+    background: #272b54;
+    color: #f6f7f2;
+    cursor: pointer;
+    border-radius: 3px;
+    outline: none;
+}
+
+.btn:hover {
+    background: #272b54;
+}
+
+.input_field:last-child {
+    margin-bottom: 0;
 }
 
 /*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Gallery Page Content*/
