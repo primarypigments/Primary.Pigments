@@ -203,8 +203,47 @@ h3 {
     background: url(../images/meetings-img.jpg) no-repeat center center/cover;
 
 }
-
 /*&&&%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Contact page*/
+body {
+    background: #272b54;
+    padding: 0 10px;
+}
+
+.joinus {
+    max-width: 500px;
+    width: 100%;
+    max-height: ;
+    background: #f6f7f2;
+    margin: 200px auto;
+    box-shadow: 2px 2px 4px 4px rgba(2, 3, 22, 0.125);
+    padding: 30px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #272b54;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.form {
+    width: 100%;
+}
+
+.form .input_field {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.form .input_field label {
+    width: 200px;
+    color: #272b54;
+    margin-right: 10px;
+    font-size: 14px;
+}
 
 
 /*footer contact social media*/
