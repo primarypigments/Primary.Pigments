@@ -401,6 +401,28 @@ footer {
 /*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Gallery Page Content*/
 
 
+.gallery_text {
+    margin-top: 65px;
+    width: 70%;
+    text-align: justify;
+    margin: auto;
+    color: #272b54;
+    font-weight: 300;
+    text-transform: none;
+
+    padding: 50px 10px 50px 10px;
+
+}
+
+#section_gallery {
+    margin-top: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
 .gallery {
     display: flex;
     flex-wrap: wrap;
