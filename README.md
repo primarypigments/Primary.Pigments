@@ -1,12 +1,3 @@
-
-
-
-
-
-
-
-
-
 # [PRIMARY.PIGMENTS](https://primarypigments.github.io/Primary.Pigments)
 
 ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
@@ -41,29 +32,9 @@ Primary Pigments goals are to encourage emotional resilience, nurture self-estee
 Primary Pigments website makes the effort to keep the information simple and not overbearing so that the users is not  overwhelmed and moves on somewhere else for their creative and/self help needs. We do this by explaining 3 componest about our club, "what to expect, our goals, meetings" followed by corresponding paintings.
 We also present a series of paintings from our members. These represent the possibilities healing can be achieved through art.  Our contact page is also simple. We do ask potential members to provide their name, email. postal code, a password used to gain access to the meetings, an agreement of being respectful, phone number, and we do ask potential members to introduce themselves in a short message. We have had great success thus far and now we want to present this club to the surrounding areas of Kakenstorf to find more people who can use this service.
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
 
 I used modern fonts to diversify myself, I've integrated Google Fonts to find a typeface that compliments the website's aesthetic. For the main text, I've chosen Roboto Mono due to its  optimization for readability on screens across a wide variety of devices and reading environments. I've applied with a "sans-serif" fallback.
-Icons
-As for icons I decided to use for my website Font Awesome library.
 
-Colors
-As for the background color I decided to use Cssgradient. https://cssgradient.io/
-For Website color scheme I used Google http://google.com
-
-I will explain the uses of the various colors below, starting from top to bottom.
-
-
-
-linear-gradient(90deg, rgba(240, 239, 239, 1) 0%, rgba(246, 247, 242, 1) 22%, rgba(236, 242, 228, 1) 100%, rgba(246, 247, 242, 1) 100%); : This is the main background color.
-#272b54 : This is the border color.
-#272b54 : This is the accent color.
-#272b54 : This is the main text color.
-#f6f7f2 : This is used for Icon color
-
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 ### Colour Scheme
 
@@ -71,6 +42,23 @@ linear-gradient(90deg, rgba(240, 239, 239, 1) 0%, rgba(246, 247, 242, 1) 22%, rg
 
 
 I chose this color scheme because it is easy on the eyes and brings a calming feeling,  I believe my users are looking form a site that are these things and will in turn get them to join, 
+
+As for the background color I decided to use Cssgradient. https://cssgradient.io/
+For Website color scheme I used Google http://google.com
+
+I will explain the uses of the various colors below, starting from top to bottom.
+
+
+The main background color uses a linear-gradient:
+
+```css
+linear-gradient(90deg, rgba(240, 239, 239, 1) 0%, rgba(246, 247, 242, 1) 22%, rgba(236, 242, 228, 1) 100%, rgba(246, 247, 242, 1) 100%);
+```
+
+- `#272b54` : This is the border color.
+- `#272b54` : This is the accent color.
+- `#272b54` : This is the main text color.
+- `#f6f7f2` : This is used for Icon color
 
 
 
@@ -89,27 +77,11 @@ I used [coolors.co](https://coolors.co/e84610-009fe3-4a4a4f-445261-d63649-e6ecf0
 
 ![screenshot](documentation/coolors.png)
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+### Typography
 
-If you've used CSS `:root` variables, consider also including a code snippet here!
+**Icons**
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-I've used CSS `:root` variables to easily update the global colour scheme by changing only one value, instead of everywhere in the CSS file.
-
-```css
-:root {
-    /* P = Primary | S = Secondary */
-    --p-text: #000000;
-    --p-highlight: #E84610;
-    --s-text: #4A4A4F;
-    --s-highlight: #009FE3;
-    --white: #FFFFFF;
-    --black: #000000;
-}
-```
-
-
+As for icons I decided to use for my website [Font Awesome](https://fontawesome.com/) library.
 
 
 ## User Stories

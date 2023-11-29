@@ -29,29 +29,23 @@
         <nav>
             <ul id="navbar">
                 <li>
-                    <a href="index.html" class="ready">Home
-
-                    </a>
+                    <a href="index.html" class="ready">Home</a>
                 </li>
-
                 <li>
-                    <a href="gallery.html" class="ready">Gallery
-
-                    </a>
+                    <a href="gallery.html" class="ready">Gallery</a>
                 </li>
-                <li><a href="contact.html" class="ready">Contact
-
-                    </a>
+                <li>
+                    <a href="contact.html" class="ready">Contact</a>
                 </li>
             </ul>
 
         </nav>
     </header>
     <!-- Main Content Joining Form Help from w3schools, youtube, code institue love running walk through-->
-    <main id="signup">
+    <main class="contact">
 
         <section>
-            <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
+            <form id="signup-form" action="confirmation.html">
                 <div class="joinus">
                     <div class="title">
                         Come Join Us!
@@ -59,99 +53,70 @@
 
                     <div class="form">
                         <div class="input_field">
-                            <label for="first_name">First Name
-                            </label>
-                            <input type="text" name="first_name" id="first_name" class="input">
+                            <label for="first_name">First Name</label>
+                            <input type="text" required name="first_name" id="first_name" class="input">
                         </div>
 
                         <div class="input_field">
-                            <label>Last Name
-
-                            </label>
-                            <input type="text" name="last_name" id="last_name" class="input">
+                            <label for="last_name">Last Name</label>
+                            <input type="text" required name="last_name" id="last_name" class="input">
                         </div>
 
                         <!-- Looked up type=password from w3schools-->
                         <div class="input_field">
-                            <label>Password
-
-                            </label>
-                            <input type="password" name="password" id="password" class="input">
+                            <label for="password">Password</label>
+                            <input type="password" required name="password" id="password" class="input">
                         </div>
 
                         <div class="input_field">
-                            <label>Confirm Password
-
-                            </label>
-                            <input type="password" name="confirm_password" id="confirm_password" class="input">
+                            <label for="confirm_password">Confirm Password</label>
+                            <input type="password" required name="confirm_password" id="confirm_password" class="input">
                         </div>
 
                         <div class="input_field">
-                            <label>Your Interest
+                            <label for="interest_select">Your Interest
                                 <!--drop down menu w3schools-->
                             </label>
                             <div class="interest_select">
-                                <select>
-                                    <option value="">Choose
-
-                                    </option>
-                                    <option value="Creativity">Creativity
-
-                                    </option>
-                                    <option value="Community">Community
-
-                                    </option>
-                                    <option value="Self Help">Self Help
-
-                                    </option>
+                                <select name="interest_select" required id="interest_select">
+                                    <option value="">Choose</option>
+                                    <option value="Creativity">Creativity</option>
+                                    <option value="Community">Community</option>
+                                    <option value="Self Help">Self Help</option>
                                 </select>
                             </div>
                         </div>
 
                         <div class="input_field">
-                            <label>Email Address
-                            </label>
-                            <input type="text" name="email_address" id="email_address" class="input">
+                            <label for="email_address">Email Address</label>
+                            <input type="text" required name="email_address" id="email_address" class="input">
                         </div>
 
                         <div class="input_field">
-                            <label>Phone Number
-
-                            </label>
-                            <input type="text" name="phone_number" id="phone_number" class="input">
+                            <label for="phone_number">Phone Number</label>
+                            <input type="tel" required name="phone_number" id="phone_number" class="input">
                         </div>
 
                         <div class="input_field">
-                            <label>Tell us about yourself
-
-                            </label>
-                            <textarea class="textarea">
-
-                            </textarea>
+                            <label for="about">Tell us about yourself</label>
+                            <textarea name="about" required id="about" class="textarea"></textarea>
                         </div>
 
                         <div class="input_field">
-                            <label>Postal Code
-
-                            </label>
-                            <input type="text" name="postal_code" id="postal_code" class="input">
+                            <label for="postal_code">Postal Code</label>
+                            <input type="text" required name="postal_code" id="postal_code" class="input">
                         </div>
                         <!--This section I looked how to do on youtube-->
                         <div class="input_field">
                             <label class="agree">
-                                <input type="checkbox" name="agreed" id="agreed" class="input">
+                                <input type="checkbox"  required name="agreed" id="agreed" class="input">
                                 <!-- a span element is used for inline organization and styling-->
-                                <span class="agree_mark">
-
-                                </span>
+                                <span class="agree_mark"></span>
                             </label>
-                            <p>Agree to respect yourself and our members
-
-                            </p>
+                            <p>Agree to respect yourself and our members</p>
                         </div>
 
                         <div class="input_field">
-
                             <input type="submit" value="Register" class="btn">
                         </div>
                     </div>
