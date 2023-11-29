@@ -60,8 +60,6 @@ header {
 header a {
     text-decoration: none;
     color: inherit;
-
-
 }
 
 h1 {
@@ -148,10 +146,6 @@ h3 {
 
 #why {
     background: linear-gradient(90deg, rgba(240, 239, 239, 1) 0%, rgba(246, 247, 242, 1) 22%, rgba(236, 242, 228, 1) 100%, rgba(246, 247, 242, 1) 100%);
-
-
-
-
 }
 
 .why-text-heading {
@@ -162,8 +156,6 @@ h3 {
     color: #272b54;
     font-size: 45px;
     padding: 100px 10px 100px 10px;
-
-
 }
 
 .why-text {
@@ -174,9 +166,7 @@ h3 {
     color: #272b54;
     font-weight: 300;
     text-transform: none;
-
     padding: 50px 10px 50px 10px;
-
 }
 
 
@@ -203,13 +193,14 @@ h3 {
 /*&&&%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Contact page*/
 
 .contact {
-    
-        height: 100%;
-        width: 100%;
-        background: url("../images/stress-4.jpg") no-repeat center center/cover;
-        position: relative;
-    
+
+    height: 100%;
+    width: 100%;
+    background: url("../images/stress-4.jpg") no-repeat center center/cover;
+    position: relative;
+
 }
+
 body {
     background: #272b54;
     padding: 0 10px;
@@ -563,10 +554,11 @@ footer {
     }
 
 }
+
 /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ Conrifmation Page*/
 
 .confirmation {
-    
+
     height: 100%;
     width: 100%;
     background: url("../images/Found-img.jpg") no-repeat center center/cover;
