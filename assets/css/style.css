@@ -554,6 +554,16 @@ footer {
     }
 
 }
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ Conrifmation Page*/
+
+.confirmation {
+    
+    height: 100%;
+    width: 100%;
+    background: url("../images/Found-img.jpg") no-repeat center center/cover;
+    position: relative;
+
+}
 
 /*laptops and up*/
 @media screen and (min-width: 992px) {
