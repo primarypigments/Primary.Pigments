@@ -464,6 +464,10 @@ footer {
         display: none;
     }
 
+    #logo {
+        font-size: 3vw;
+    }
+
     nav {
         display: block;
         position: relative;
