@@ -28,12 +28,14 @@ https://pandao.github.io/editor.md/en.html
 
 🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
+I created Primary Pigments to fill a need in the community.  There are many people who are in need of support or wanting to create but do not have access to an option that is simple and local.
+
 Primary Pigments goals are to encourage emotional resilience, nurture self-esteem and self-awareness, promote insight, enhance social skills, minimize and find solutions for conflicts and distress, and create harmony in societal and ecological change. We aim for people who had traumas in their lives and are stuck in this moment. We are also happy with individuals who want to grow creatively and be social. We intend to give our community the opportunity to express their inner thoughts, while helping them to better understand and make sense of their emotions and their mental health. The goals ideas and ideals are not achieved through interacting with the website, instead this site acts as a vessel to guide the user to join and to meet at the events. 
 Primary Pigments website makes the effort to keep the information simple and not overbearing so that the users is not  overwhelmed and moves on somewhere else for their creative and/self help needs. We do this by explaining 3 componest about our club, "what to expect, our goals, meetings" followed by corresponding paintings.
 We also present a series of paintings from our members. These represent the possibilities healing can be achieved through art.  Our contact page is also simple. We do ask potential members to provide their name, email. postal code, a password used to gain access to the meetings, an agreement of being respectful, phone number, and we do ask potential members to introduce themselves in a short message. We have had great success thus far and now we want to present this club to the surrounding areas of Kakenstorf to find more people who can use this service.
 
 
-I used modern fonts to diversify myself, I've integrated Google Fonts to find a typeface that compliments the website's aesthetic. For the main text, I've chosen Roboto Mono due to its  optimization for readability on screens across a wide variety of devices and reading environments. I've applied with a "sans-serif" fallback.
+
 
 
 ### Colour Scheme
@@ -73,7 +75,7 @@ Example:
 
 🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
-I used [coolors.co](https://coolors.co/e84610-009fe3-4a4a4f-445261-d63649-e6ecf0-000000) to generate my colour palette.
+I used [Google](https://www.google.com/) to generate my colour palette.
 
 ![screenshot](documentation/coolors.png)
 
@@ -83,7 +85,9 @@ I used [coolors.co](https://coolors.co/e84610-009fe3-4a4a4f-445261-d63649-e6ecf0
 
 As for icons I decided to use for my website [Font Awesome](https://fontawesome.com/) library.
 
+**Fonts**
 
+ I've integrated Google Fonts to find a typeface that compliments the website's aesthetic. For the main text, I've chosen Roboto Mono due to its optimization for readability on screens across a wide variety of devices and reading environments. I've applied with a "sans-serif" fallback.
 ## User Stories
 
 ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
@@ -217,7 +221,7 @@ IMPORTANT: Remember to always include a screenshot of each individual feature!
 
 ### Existing Features
 
-- **Title for feature #1**
+- **Navbar feature #1**
 
     - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
 
@@ -260,6 +264,13 @@ Consider adding any helpful links or notes to help remind you in the future, if 
     - Any additional notes about this feature.
 - Title for future feature #3
     - Any additional notes about this feature.
+    ### Future Features
+Link to the Primary Pigment whatsapp group
+    This is where special events/guest and up-to-date meetings will go.
+- Testominies page
+    - this will help those who are unsure to join
+- Mental health and Proffonial artist joining and infutmation page
+    - This will help those who want to provide a service within the community to ensure safe practices and propper technquiies are being applied.
 
 ## Tools & Technologies Used
 
@@ -735,3 +746,6 @@ If you legitimately cannot find any unfixed bugs or warnings, then use the follo
 
 There are no remaining bugs that I am aware of.
  
+
+
+[def]: https://cssgradient.io/
