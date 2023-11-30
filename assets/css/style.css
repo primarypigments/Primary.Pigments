@@ -174,7 +174,7 @@ h3 {
 
 #goals-img {
     margin: auto;
-    padding: 100px 10px auto;
+    padding: 100px 10px 100px 10px;
     width: 70%;
     height: 200px;
     background: url(../images/goals-img.jpg) no-repeat center center/cover;
@@ -183,7 +183,7 @@ h3 {
 
 #meetings-img {
     margin: auto;
-    padding: 100px 10px auto;
+    padding: 100px 10px 100px 10px;
     width: 70%;
     height: 200px;
     background: url(../images/meetings-img.jpg) no-repeat center center/cover;
@@ -345,7 +345,7 @@ p {
 footer {
     background-color: #272b54;
     color: #f6f7f2;
-    margin-top: 500px #f6f7f2;
+   
 
 
 }
@@ -358,7 +358,6 @@ footer {
 #online-community {
     width: 100%;
     text-align: center;
-    padding: 20 0 20 0;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
