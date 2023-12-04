@@ -2,32 +2,6 @@
 
 ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
-In this section, you will include a few paragraphs providing an overview of your project.
-Essentially, this part is your "sales pitch".
-
-At this stage, you should have a name for your project so use it!
-Don't introduce the project as a "portfolio project" for the diploma.
-
-In this section, describe what the project hopes to accomplish, who it is intended to target, and how it will be useful to the target audience.
-
-Consider adding a mockup image using the "Am I Responsive" website.
-Here's your deployed site as an example:
-https://ui.dev/amiresponsive?url=https://primarypigments.github.io/Primary.Pigments
-
-Screenshots for the README and testing should not be inside of `assets/` or `static/` image folders.
-(reminder: `assets/` and `static/` are for files used on the live site, not documentation)
-Consider adding a new folder called `documentation`, and add the amiresponsive screenshot inside of that folder.
-To add the image into your README, use this format:
-(assuming you have a new folder called `documentation` with an image called "mockup.png")
-
-![screenshot](documentation/mockup.png)
-
-Note: Markdown files (.md) should not contain HTML elements like `img`, `br`, `div`, `a`, etc, only Markdown formatting.
-Find out more about using Markdown elements here:
-https://pandao.github.io/editor.md/en.html
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
 I created Primary Pigments to fill a need in the community.  There are many people who are in need of support or wanting to create but do not have access to an option that is simple and local.
 
 Primary Pigments goals are to encourage emotional resilience, nurture self-esteem and self-awareness, promote insight, enhance social skills, minimize and find solutions for conflicts and distress, and create harmony in societal and ecological change. We aim for people who had traumas in their lives and are stuck in this moment. We are also happy with individuals who want to grow creatively and be social. We intend to give our community the opportunity to express their inner thoughts, while helping them to better understand and make sense of their emotions and their mental health. The goals ideas and ideals are not achieved through interacting with the website, instead this site acts as a vessel to guide the user to join and to meet at the events. 
@@ -36,11 +10,17 @@ We also present a series of paintings from our members. These represent the poss
 
 
 
+Deployed site as an example:
+https://ui.dev/amiresponsive?url=https://primarypigments.github.io/Primary.Pigments
+
+
+
+![screenshot](documentation/mockup.png)
+
+
 
 
 ### Colour Scheme
-
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
 
 I chose this color scheme because it is easy on the eyes and brings a calming feeling,  I believe my users are looking form a site that are these things and will in turn get them to join, 
@@ -60,24 +40,24 @@ linear-gradient(90deg, rgba(240, 239, 239, 1) 0%, rgba(246, 247, 242, 1) 22%, rg
 - `#272b54` : This is the border color.
 - `#272b54` : This is the accent color.
 - `#272b54` : This is the main text color.
-- `#f6f7f2` : This is used for Icon color
+- `#f6f7f2` : This is used for Icon color.
+- `#4d4f47` : This is used for shadow.
 
 
 
 ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
-Consider adding a link and screenshot for your colour scheme using "coolors".
-https://coolors.co/generate
 
 When you add a colour to the palette, the URL is dynamically updated, making it easier for you to return back to your colour palette later if needed.
 
-Example:
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
-I used [Google](https://www.google.com/) to generate my colour palette.
+I used [Google](https://www.w3schools.com/colors/colors_picker.asp) to generate my colour palette.
 
-![screenshot](documentation/coolors.png)
+![screenshot](documentation/color/color_#272b54.png)
+![screenshot](documentation/color/color_#f6f7f2.png)
+![screenshot](documentation/color/linear_gradient.png)
+![screenshot](documentation/color/color_#4d4f47.png.png)
 
 ### Typography
 
@@ -88,28 +68,22 @@ As for icons I decided to use for my website [Font Awesome](https://fontawesome.
 **Fonts**
 
  I've integrated Google Fonts to find a typeface that compliments the website's aesthetic. For the main text, I've chosen Roboto Mono due to its optimization for readability on screens across a wide variety of devices and reading environments. I've applied with a "sans-serif" fallback.
+
 ## User Stories
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
-As a new site user, I would like to nurtrue my creativity, so that I can better express myself.
-
-
+- As a new site user, I would like to nurtrue my creativity, so that I can better express myself.
 - As a new site user, I would like to move forward in my life, so that I can minimize my depression.
 - As a new site user, I would like to try a new approch to working through my trauma, so that I can appricate the present moment.
 - As a new site user, I would like to help people because I am a psycologist , so that I can find new ways of treating my patince.
 - As a new site user, I would like to show my support as the mayor of Kakenstorf, so that I can be involed of the well being of my community.
 
 
-As a returning site user, I would like to join the commmunity, so that I can start something new.
-
-As a returning site user, I would like to share this community to my friends, so that I can have friends who can join me.
+- As a returning site user, I would like to join the commmunity, so that I can start something new.
+- As a returning site user, I would like to share this community to my friends, so that I can have friends who can join me.
 - As a returning site user, I would like to look up the phone number to Primary Pigments, so that I can retrieve my password, and join the next meeting.
 - As a returning site user, I would like to look at the painting I made, so that I can so share the paintings to my social media.
 - As a returning site user, I would like to look at the beautiful paintings again , so that I can build the curage to join.
-
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 
 
@@ -136,22 +110,22 @@ for the Mobile, Tablet, and Desktop wireframes.
 To follow best practice, wireframes were developed for mobile, tablet, and desktop sizes.
 I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wireframes.
 
-### Mobile Wireframes
+### Desktop Wireframes
 
 < details >
 < summary > Click here to see the Mobile Wireframes < / summary >
 
 Home
-  - ![screenshot](documentation/wireframes/mobile-home.png)
+  - ![screenshot](documentation/wireframes/wireframe_desktop_home.png)
 
 About
-  - ![screenshot](documentation/wireframes/mobile-about.png)
+  - ![screenshot](documentation/wireframes/wireframe_desktop_gallery.png)
 
 Contact
-  - ![screenshot](documentation/wireframes/mobile-contact.png)
+  - ![screenshot](documentation/wireframes/wireframe_desktop_contact.png)
 
 Gallery
-  - ![screenshot](documentation/wireframes/mobile-gallery.png)
+  - ![screenshot](documentation/wireframes/wireframe_desktop_confirmation.png)
 
 etc.
   - repeat for any remaining mobile wireframes
@@ -164,107 +138,89 @@ etc.
 < summary > Click here to see the Tablet Wireframes < / summary >
 
 Home
-  - ![screenshot](documentation/wireframes/tablet-home.png)
+  - ![screenshot](documentation/wireframes/wireframe_tablet_home.png)
 
 About
-  - ![screenshot](documentation/wireframes/tablet-about.png)
+  - ![screenshot](documentation/wireframes/wireframe_tablet_gallery.png)
 
 Contact
-  - ![screenshot](documentation/wireframes/tablet-contact.png)
+  - ![screenshot](documentation/wireframes/wireframe_tablet_contact.png)
 
 Gallery
-  - ![screenshot](documentation/wireframes/tablet-gallery.png)
+  - ![screenshot](documentation/wireframes/wireframe_tablet_confirmation.png)
 
 etc.
   - repeat for any remaining tablet wireframes
 
 < / details >
 
-### Desktop Wireframes
+### Smartphone Wireframes
 
 < details >
 < summary > Click here to see the Desktop Wireframes < / summary >
 
 Home
-  - ![screenshot](documentation/wireframes/desktop-home.png)
+  - ![screenshot](documentation/wireframes/wireframe_smatphone_home.png)
 
 About
-  - ![screenshot](documentation/wireframes/desktop-about.png)
+  - ![screenshot](documentation/wireframes/wireframe_smartphone_gallery.png)
 
 Contact
-  - ![screenshot](documentation/wireframes/desktop-contact.png)
+  - ![screenshot](documentation/wireframes/wireframe_smartphone_contact.png)
 
 Gallery
-  - ![screenshot](documentation/wireframes/desktop-gallery.png)
+  - ![screenshot](documentation/wireframes/wireframe_smartphone_confirmation.png)
 
-etc.
-  - repeat for any remaining desktop wireframes
-
-< / details >
 
 ## Features
-
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-In this section, you should go over the different parts of your project,
-and describe each in a sentence or so.
-
-You will need to explain what value each of the features provides for the user,
-focusing on who this website is for, what it is that they want to achieve,
-and how your project is the best way to help them achieve these things.
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-IMPORTANT: Remember to always include a screenshot of each individual feature!
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 ### Existing Features
 
 - **Navbar feature #1**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    
+ The navigation bar allows you the opportunity to prioritize the content you want visitors to read. It also enables you to take your visitor on a journey, from the most important pages.
 
-![screenshot](documentation/feature01.png)
+![screenshot](documentation/navbar.png)
 
-- **Title for feature #2**
+- *Hero image**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - Our hero image adds a personal touch that immediately builds credibility and trust for our brand. Because people are highly visual, having high-quality, fullscreen imagery at the top of your page can help create a positive first impressin.We also added our location to the image so that the users know immediately where we are located.
 
-![screenshot](documentation/feature02.png)
 
-- **Title for feature #3**
+![screenshot](documentation/hero.png)
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+- **Social Media Link Bar**
 
-![screenshot](documentation/feature03.png)
+    - A Social Media Link Bar helps us increase brand awareness, increase engagement, help grow followers, and increase accessibility.
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+![screenshot](documentation/social_media.png)
 
-Repeat as necessary for as many features as your site contains.
+**Contact Form**
 
-Hint: the more, the merrier!
+    - Our contact form is important to the user because it gives them the option to join immediately. This section is also fully tested and sends a confirmation back
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+!
+
+![screenshot](documentation/contact_form.png)
+
+**Contact Form Reminder**
+
+    - This future is impotant for the user becasue it reminds the user when they forget to fill out one of the sections.
+
+![screenshot](documentation/contact_form_reminder.png)
+
+**Title for feature #3**
+
+    -Confirmation page can work as an indicator of successful contact. One of our users may send us a message using the online form. It is also a helpful reminder to keep the password for the in person meetings. 
+
+
+![screenshot](documentation/confirmation.PNG)
+
 
 ### Future Features
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
-Do you have additional ideas that you'd like to include on your project in the future?
-Fantastic! List them here!
-It's always great to have plans for future improvements!
-Consider adding any helpful links or notes to help remind you in the future, if you revisit the project in a couple years.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-- Title for future feature #1
-    - Any additional notes about this feature.
-- Title for future feature #2
-    - Any additional notes about this feature.
-- Title for future feature #3
-    - Any additional notes about this feature.
-    ### Future Features
 Link to the Primary Pigment whatsapp group
     This is where special events/guest and up-to-date meetings will go.
 - Testominies page
@@ -274,7 +230,6 @@ Link to the Primary Pigment whatsapp group
 
 ## Tools & Technologies Used
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
 TOOLS and Technoligies used
 
@@ -303,6 +258,7 @@ TOOLS and Technoligies used
 - [Input type password] (https://www.w3schools.com/tags/att_input_type_password.asp) Used for putting a passwpord in my form.
 - [Styling Form] (https://www.youtube.com/watch?v=okbByPWS1Xc) Used for ideas and css styling
 - [Transitions] (https://www.w3schools.com/css/css3_transitions.asp) Used to for transitions for form.
+- [Image Convetrer] (http://https://www.freeconvert.com/webp-converter) Used to covert images to webp.
 
 
 🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
@@ -358,11 +314,8 @@ You can fork this repository by using the following steps:
 
 ### Local VS Deployment
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+The only major difference i have see is when i the site is live using an apple product is the menu on the contact page turns blue.
 
-Use this space to discuss any differences between the local version you've developed, and the live deployment site on GitHub Pages.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 ## Credits
 
@@ -376,57 +329,31 @@ however, it is important to be very specific about these sources to avoid plagia
 
 ### Content
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Use this space to provide attribution links to any borrowed code snippets, elements, or resources.
-A few examples have been provided below to give you some ideas.
-
-Ideally, you should provide an actual link to every resource used, not just a generic link to the main site!
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 | Source | Location | Notes |
 | --- | --- | --- |
 | [Markdown Builder](https://tim.2bn.dev/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
 | [Chris Beams](https://chris.beams.io/posts/git-commit) | version control | "How to Write a Git Commit Message" |
-| [W3Schools](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp) | entire site | responsive HTML/CSS/JS navbar |
+| [Code Institute](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+2023_Q2/courseware/e805068059af42af87681032aa64053f/7525117e5cd144daa2a7b0c57843bbee/) | Setting up the basic HTML structure: Part 1 | 
+| [Sentry](https://sentry.io/answers/how-do-i-auto-resize-an-image-to-fit-a-div-container/#:~:text=To%20fix%20this%2C%20we%20can,contain%E2%80%9D%20and%20%E2%80%9Ccover%E2%80%9D.) | Resize Image |
+| [StackOverflow] (https://stackoverflow.com/questions/16670931/hide-scroll-bar-but-while-still-being-able-to-scroll) |Hide Scrollbar|
 | [W3Schools](https://www.w3schools.com/howto/howto_css_modals.asp) | contact page | interactive pop-up (modal) |
 | [W3Schools](https://www.w3schools.com/css/css3_variables.asp) | entire site | how to use CSS :root variables |
+| [W3Schools](https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp) | entire site | how to custom scrollbar |
 | [Flexbox Froggy](https://flexboxfroggy.com/) | entire site | modern responsive layouts |
 | [Grid Garden](https://cssgridgarden.com) | entire site | modern responsive layouts |
-| [StackOverflow](https://stackoverflow.com/a/2450976) | quiz page | Fisher-Yates/Knuth shuffle in JS |
-| [YouTube](https://www.youtube.com/watch?v=YL1F4dCUlLc) | leaderboard | using `localStorage()` in JS for high scores |
-| [YouTube](https://www.youtube.com/watch?v=u51Zjlnui4Y) | PP3 terminal | tutorial for adding color to the Python terminal |
-| [strftime](https://strftime.org) | CRUD functionality | helpful tool to format date/time from string |
-| [WhiteNoise](http://whitenoise.evans.io) | entire site | hosting static files on Heroku temporarily |
+| [YouTube](https://www.youtube.com/watch?app=desktop&v=b6uLtL8M5nc) | responsive navbar | used idea for navbar|
+| [YouTube](https://www.youtube.com/watch?v=BlSp2ertu_8) | Hide Scrollbar | tutorial hide scrollbar |
+
 
 ### Media
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Use this space to provide attribution links to any images, videos, or audio files borrowed from online.
-A few examples have been provided below to give you some ideas.
-
-If you're the owner (or a close acquaintance) of all media files, then make sure to specify this.
-Let the assessors know that you have explicit rights to use the media files within your project.
-
-Ideally, you should provide an actual link to every media file used, not just a generic link to the main site!
-The list below is by no means exhaustive. Within the Code Institute Slack community, you can find more "free media" links
-by sending yourself the following command: `!freemedia`.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 | Source | Location | Type | Notes |
 | --- | --- | --- | --- |
-| [Pexels](https://www.pexels.com) | entire site | image | favicon on all pages |
-| [Lorem Picsum](https://picsum.photos) | home page | image | hero image background |
-| [Unsplash](https://unsplash.com) | product page | image | sample of fake products |
-| [Pixabay](https://pixabay.com) | gallery page | image | group of photos for gallery |
-| [Wallhere](https://wallhere.com) | footer | image | background wallpaper image in the footer |
-| [This Person Does Not Exist](https://thispersondoesnotexist.com) | testimonials | image | headshots of fake testimonial images |
-| [Audio Micro](https://www.audiomicro.com/free-sound-effects) | game page | audio | free audio files to generate the game sounds |
-| [Videvo](https://www.videvo.net/) | home page | video | background video on the hero section |
-| [TinyPNG](https://tinypng.com) | entire site | image | tool for image compression |
+| [Favicon Generator](https://realfavicongenerator.net/favicon_result?file_id=p1hggvtne11k221od61hr51qbalja6) | entire site | image | favicon on all pages |
+| [Hero Image](https://dribbble.com/shots/19877346-Depression/attachments/14975065?mode=media) | entire site | image | hero image for home page |
+| [Website Images](https://www.bing.com/images/create?FORM=GENILP) | enitre site | images | all images for website except Hero image, can not provide every link to all the images i used do to the images are tied to my peronal microsoft account |
 
 ### Acknowledgements
 
@@ -437,56 +364,33 @@ A few examples have been provided below to give you some ideas.
 
 🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
-- I would like to thank my Code Institute mentor, [Tim Nelson](https://github.com/TravelTimN) for their support throughout the development of this project.
+- I would like to thank my awesome Code Institute mentor I really appriciate all that he has done for me, [Tim Nelson](https://github.com/TravelTimN) for their support         throughout the development of this project.
 - I would like to thank the [Code Institute](https://codeinstitute.net) tutor team for their assistance with troubleshooting and debugging some project issues.
 - I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support; it kept me going during periods of self doubt and imposter syndrome.
 - I would like to thank my partner Coleen and my 3 children Lucille Mo and Octiavio, for believing in me, and allowing me to make this transition into software development.
 - I would like to thank Agentur für Arbeit, for supporting me in my career development change towards becoming a software developer.
 TESTING.md 
+
+
 # Testing
 
 Return back to the [README.md](README.md) file.
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
-In this section, you need to convince the assessors that you have conducted enough testing to legitimately believe that the site works well.
-Essentially, in this part, you should go over all of your project's features, and ensure that they all work as intended,
-with the project providing an easy and straightforward way for the users to achieve their goals.
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+The Primary Pigments website has met the objectives set by all parties involved. It's responsive on various screen sizes, ensuring clean and crisp images without excessive empty space. Users can easily navigate and contact us through the contact form or social media. The content is concise, and the design is uncluttered, providing a user-friendly experience.
+
 
 ## Code Validation
-
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Use the space to discuss code validation for any of your own code files (where applicable).
-You are not required to validate external libraries/frameworks, such as imported Bootstrap, Materialize, Font Awesome, etc.
-
-**IMPORTANT**: You must provide a screenshot for each file you validate.
-
-**PRO TIP**: Always validate the live site pages, not your local code. There could be subtle/hidden differences.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 ### HTML
 
 I have used the recommended [HTML W3C Validator](https://validator.w3.org) to validate all of my HTML files.
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-- If you are copying/pasting your HTML code, use this link: https://validator.w3.org/#validate_by_input
-- (*recommended*) If you are using the live deployed site pages, use this link: https://validator.w3.org/#validate_by_uri
-
-It's recommended to validate the live pages (each of them) using the deployed URL.
-This will give you a custom URL as well, which you can use on your testing documentation.
-It makes it easier to return back to a page to validate it again in the future.
 The URL will look something like this:
 
 - https://validator.w3.org/nu/?doc=https%3A%2F%2Fprimarypigments.github.io%2Fprimary.pigments%2Findex.html
 
-Sample HTML code validation documentation (tables are extremely helpful!):
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 | Page | W3C URL | Screenshot | Notes |
 | --- | --- | --- | --- |
@@ -505,138 +409,68 @@ Sample HTML code validation documentation (tables are extremely helpful!):
 
 I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate all of my CSS files.
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+| Home | [W3C](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fprimarypigments.github.io%2FPrimary.Pigments%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) | ![screenshot](documentation/css_validation_home.png) |No Error Found. |
 
-- If you are copying/pasting your HTML code, use this link: https://jigsaw.w3.org/css-validator/#validate_by_input
-- (*recommended*) If you are using the live deployed site, use this link: https://jigsaw.w3.org/css-validator/#validate_by_uri
+| Gallery | [W3C](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fprimarypigments.github.io%2FPrimary.Pigments%2Fgallery.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) | ![screenshot](documentation/css_validation_gallery.png) |No Error Found.|
 
-It's recommended to validate the live site if you only have a single CSS file using the deployed URL.
-This will give you a custom URL as well, which you can use on your testing documentation.
-It makes it easier to return back to the page to validate it again in the future.
-The URL will look something like this:
+| Contact | [W3C](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fprimarypigments.github.io%2FPrimary.Pigments%2Fcontact.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) | ![screenshot](documentation/css_validation_contact.png) | No Error Found. |
 
-- https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fprimarypigments.github.io%2Fprimary.pigments
 
-If you have multiple CSS files, then individual [validation by input](https://jigsaw.w3.org/css-validator/#validate_by_input)
-is recommended for the additional CSS files.
-
-**IMPORTANT**: Third-Party tools
-
-If you're using extras like Bootstrap, Materialize, Font Awesome, then sometimes the validator
-will attempt to also validate this code, even if it's not part of your own actual code.
-You are not required to validate the external libraries or frameworks!
-
-Sample CSS code validation documentation (tables are extremely helpful!):
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+| Confirmation | [W3C](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fprimarypigments.github.io%2FPrimary.Pigments%2Fconfirmation.html%3Ffirst_name%3Ds%26last_name%3Ds%26password%3Ds%26confirm_password%3Ds%26interest_select%3DSelf%2BHelp%26email_address%3Ds%26phone_number%3Ds%26about%3Ds%26postal_code%3Ds%26agreed%3Don&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) | ![screenshot](documentation/css_validation_confirmation.png) | No Error Found. |
+|
 
 | File | Jigsaw URL | Screenshot | Notes |
 | --- | --- | --- | --- |
-| style.css | [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fprimarypigments.github.io%2Fprimary.pigments) | ![screenshot](documentation/css-validation-style.png) | Pass: No Errors |
-| checkout.css | n/a | ![screenshot](documentation/css-validation-checkout.png) | Pass: No Errors |
-| x | x | x | repeat for all remaining CSS files |
+| style.css | [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fprimarypigments.github.io%2Fprimary.pigments) | ![screenshot](documentation/css_validation_style.png) | Pass: No Errors |
+
 
 ## Browser Compatibility
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Use this space to discuss testing the live/deployed site on various browsers.
-
-Consider testing at least 3 different browsers, if available on your system.
-
 Recommended browsers to consider:
 - [Chrome](https://www.google.com/chrome)
-- [Firefox (Developer Edition)](https://www.mozilla.org/firefox/developer)
 - [Edge](https://www.microsoft.com/edge)
 - [Safari](https://support.apple.com/downloads/safari)
-- [Brave](https://brave.com/download)
 - [Opera](https://www.opera.com/download)
 
-**IMPORTANT**: You must provide screenshots of the tested browsers, to "prove" that you've actually tested them.
-
-Please note, there are services out there that can test multiple browser compatibilities at the same time.
-Some of these are paid services, but some are free.
-If you use these, you must provide a link to the source used for attribution, and multiple screenshots of the results.
-
 Sample browser testing documentation:
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 I've tested my deployed project on multiple browsers to check for compatibility issues.
 
 | Browser | Home | About | Contact | etc | Notes |
 | --- | --- | --- | --- | --- | --- |
-| ![Chrome](https://raw.githubusercontent.com/TravelTimN/markdown-builder/main/assets/img/chrome.png) | ![screenshot](documentation/browser-chrome-home.png) | ![screenshot](documentation/browser-chrome-about.png) | ![screenshot](documentation/browser-chrome-contact.png) | ![screenshot](documentation/browser-chrome-etc.png) | Works as expected |
+| ![Chrome](https://raw.githubusercontent.com/TravelTimN/markdown-builder/main/assets/img/chrome.png) | ![screenshot](documentation/browser/browser_chrome_home.png) | ![screenshot](documentation/browser/browser_chrome_gallery.png) | ![screenshot](documentation/browser/browser_chrome_contact.png) | ![screenshot](documentation/browser/browser_chrome_confirmation.png) | Works as expected |
 | ![Firefox](https://raw.githubusercontent.com/TravelTimN/markdown-builder/main/assets/img/firefox.png) | ![screenshot](documentation/browser-firefox-home.png) | ![screenshot](documentation/browser-firefox-about.png) | ![screenshot](documentation/browser-firefox-contact.png) | ![screenshot](documentation/browser-firefox-etc.png) | Works as expected |
-| ![Edge](https://raw.githubusercontent.com/TravelTimN/markdown-builder/main/assets/img/edge.png) | ![screenshot](documentation/browser-edge-home.png) | ![screenshot](documentation/browser-edge-about.png) | ![screenshot](documentation/browser-chrome-edge.png) | ![screenshot](documentation/browser-edge-etc.png) | Works as expected |
-| ![Safari](https://raw.githubusercontent.com/TravelTimN/markdown-builder/main/assets/img/safari.png) | ![screenshot](documentation/browser-safari-home.png) | ![screenshot](documentation/browser-safari-about.png) | ![screenshot](documentation/browser-safari-contact.png) | ![screenshot](documentation/browser-safari-etc.png) | Minor CSS differences |
-| ![Brave](https://raw.githubusercontent.com/TravelTimN/markdown-builder/main/assets/img/brave.png) | ![screenshot](documentation/browser-brave-home.png) | ![screenshot](documentation/browser-brave-about.png) | ![screenshot](documentation/browser-brave-contact.png) | ![screenshot](documentation/browser-brave-etc.png) | Works as expected |
-| ![Opera](https://raw.githubusercontent.com/TravelTimN/markdown-builder/main/assets/img/opera.png) | ![screenshot](documentation/browser-opera-home.png) | ![screenshot](documentation/browser-opera-about.png) | ![screenshot](documentation/browser-opera-contact.png) | ![screenshot](documentation/browser-opera-etc.png) | Minor differences |
-| repeat for any other tested browsers | x | x | x | x | x |
+| ![Edge](https://raw.githubusercontent.com/TravelTimN/markdown-builder/main/assets/img/edge.png) | ![screenshot](documentation/browser/browser_edge_home.png) | ![screenshot](documentation/browser/browser_edge_gallery.png) | ![screenshot](documentation/browser/browser_edge_contact.png) | ![screenshot](documentation/browser/browser_edge_confirmation.png) | Works as expected |
+| ![Safari](https://raw.githubusercontent.com/TravelTimN/markdown-builder/main/assets/img/safari.png) | ![screenshot](documentation/browser/browser_safari_home.png) | ![screenshot](documentation/browser/browser_safari_gallery.png) | ![screenshot](documentation/browser/browser_safari_contact.png) | ![screenshot](documentation/browser/browser_safari_confirmation.png) | Minor CSS differences |
+| ![Opera](https://raw.githubusercontent.com/TravelTimN/markdown-builder/main/assets/img/opera.png) | ![screenshot](documentation/browser/browser_opera_home.png) | ![screenshot](documentation/browser/browser_opera_gallery.png) | ![screenshot](documentation/browser/browser_opera_contact.png) | ![screenshot](documentation/browser/browser_opera_confirmation.png) | Minor differences |
+
 
 ## Responsiveness
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Use this space to discuss testing the live/deployed site on various device sizes.
-
-The minimum requirement is for the following 3 tests:
-- Mobile
-- Tablet
-- Desktop
-
-**IMPORTANT**: You must provide screenshots of the tested responsiveness, to "prove" that you've actually tested them.
-
-Using the "amiresponsive" mockup image (or similar) does not suffice the requirements.
-Consider using some of the built-in device sizes in the Developer Tools.
-
-If you have tested the project on your actual mobile phone or tablet, consider also including screenshots of these as well.
-It showcases a higher level of manual tests, and can be seen as a positive inclusion!
-
-Sample responsiveness testing documentation:
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 I've tested my deployed project on multiple devices to check for responsiveness issues.
 
 | Device | Home | About | Contact | etc | Notes |
 | --- | --- | --- | --- | --- | --- |
-| Mobile (DevTools) | ![screenshot](documentation/responsive-mobile-home.png) | ![screenshot](documentation/responsive-mobile-about.png) | ![screenshot](documentation/responsive-mobile-contact.png) | ![screenshot](documentation/responsive-mobile-etc.png) | Works as expected |
-| Tablet (DevTools) | ![screenshot](documentation/responsive-tablet-home.png) | ![screenshot](documentation/responsive-tablet-about.png) | ![screenshot](documentation/responsive-tablet-contact.png) | ![screenshot](documentation/responsive-tablet-etc.png) | Works as expected |
-| Desktop | ![screenshot](documentation/responsive-desktop-home.png) | ![screenshot](documentation/responsive-desktop-about.png) | ![screenshot](documentation/responsive-desktop-contact.png) | ![screenshot](documentation/responsive-desktop-etc.png) | Works as expected |
-| XL Monitor | ![screenshot](documentation/responsive-xl-home.png) | ![screenshot](documentation/responsive-xl-about.png) | ![screenshot](documentation/responsive-xl-contact.png) | ![screenshot](documentation/responsive-xl-etc.png) | Scaling starts to have minor issues |
-| 4K Monitor | ![screenshot](documentation/responsive-4k-home.png) | ![screenshot](documentation/responsive-4k-about.png) | ![screenshot](documentation/responsive-4k-contact.png) | ![screenshot](documentation/responsive-4k-etc.png) | Noticeable scaling issues |
-| Google Pixel 7 Pro | ![screenshot](documentation/responsive-pixel-home.png) | ![screenshot](documentation/responsive-pixel-about.png) | ![screenshot](documentation/responsive-pixel-contact.png) | ![screenshot](documentation/responsive-pixel-etc.png) | Works as expected |
-| iPhone 14 | ![screenshot](documentation/responsive-iphone-home.png) | ![screenshot](documentation/responsive-iphone-about.png) | ![screenshot](documentation/responsive-iphone-contact.png) | ![screenshot](documentation/responsive-iphone-etc.png) | Works as expected |
-| repeat for any other tested browsers | x | x | x | x | x |
+| Mobile (DevTools) | ![screenshot](documentation/responsive_home_mobile.png) | ![screenshot](documentation/responsive_gallery_mobile.png) | ![screenshot](documentation/responsive_contact_mobile.png) | ![screenshot](documentation/responsive_confirmation_mobile.png) | Works as expected |
+| Tablet (DevTools) | ![screenshot](documentation/responsive_home_tablet.png) | ![screenshot](documentation/responsive_gallery_tablet.png) | ![screenshot](documentation/responsive_contact_tablet.png) | ![screenshot](documentation/responsive_confirmation_tablet.png) | Works as expected |
+| Desktop | ![screenshot](documentation/responsive_home_desktop.png) | ![screenshot](documentation/responsive_gallery_desktop.png) | ![screenshot](documentation/responsive_contact_desktop.png | ![screenshot](documentation/responsive_confirmation_desktop.png) | Works as expected |
+
+| Ipad Pro | ![screenshot](documentation/responsive_home_ipadpro.png) | ![screenshot](documentation/responsive_gallery_ipadpro.png) | ![screenshot](documentation/responsive_contact_ipadpro.png) | ![screenshot](documentation/responsive_confirmation_ipadpro.png) | Works as expected |
+
 
 ## Lighthouse Audit
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Use this space to discuss testing the live/deployed site's Lighthouse Audit reports.
-Avoid testing the local version (especially if developing in Gitpod), as this can have knock-on effects of performance.
-
-If you don't have Lighthouse in your Developer Tools,
-it can be added as an [extension](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk).
-
-Don't just test the home page (unless it's a single-page application).
-Make sure to test the Lighthouse Audit results for all of your pages.
-
-**IMPORTANT**: You must provide screenshots of the results, to "prove" that you've actually tested them.
-
-Sample Lighthouse testing documentation:
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 I've tested my deployed project using the Lighthouse Audit tool to check for any major issues.
 
 | Page | Mobile | Desktop | Notes |
 | --- | --- | --- | --- |
-| Home | ![screenshot](documentation/lighthouse-home-mobile.png) | ![screenshot](documentation/lighthouse-home-desktop.png) | Some minor warnings |
-| About | ![screenshot](documentation/lighthouse-about-mobile.png) | ![screenshot](documentation/lighthouse-about-desktop.png) | Some minor warnings |
-| Gallery | ![screenshot](documentation/lighthouse-gallery-mobile.png) | ![screenshot](documentation/lighthouse-gallery-desktop.png) | Slow response time due to large images |
-| x | x | x | repeat for any other tested pages/sizes |
+| Home | ![screenshot](documentation/lighthouse_home_mobile.png) | ![screenshot](documentation/lighthouse_home_desktop.png) | Some minor warnings |
+| Gallery | ![screenshot](documentation/lighthouse_gallery_mobile.png) | ![screenshot](documentation/lighthouse_gallery_desktop.png) | Some minor warnings |
+| Contact | ![screenshot](documentation/lighthouse_contact_mobile.png) | ![screenshot](documentation/lighthouse_contact_desktop.png) | Slow response time due to large images |
+| COnfirmation | ![screenshot](documentation/lighthouse_confirmation_mobile.png) |  | COnfirmation | ![screenshot](documentation/lighthouse_confirmation_desktop.png) |
+
 
 ## User Story Testing
 
@@ -724,11 +558,7 @@ Some examples:
 
 🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
-- On devices smaller than 375px, the page starts to have `overflow-x` scrolling.
-
-    ![screenshot](documentation/unfixed-bug01.png)
-
-    - Attempted fix: I tried to add additional media queries to handle this, but things started becoming too small to read.
+- 
 
 - For PP3, when using a helper `clear()` function, any text above the height of the terminal does not clear, and remains when you scroll up.
 
