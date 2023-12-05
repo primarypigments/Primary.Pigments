@@ -51,7 +51,7 @@ I used [Google](https://www.w3schools.com/colors/colors_picker.asp) to generate 
 ![screenshot](documentation/color/color_272b54.png)
 ![screenshot](documentation/color/color_f6f7f2.png)
 ![screenshot](documentation/color/linear_gradient.png)
-![screenshot](documentation/color/color_4d4f47.png.png)
+![screenshot](documentation/color/color_4d4f47.png)
 
 ### Typography
 
@@ -189,7 +189,7 @@ Gallery
 -Confirmation page can work as an indicator of successful contact. One of our users may send us a message using the online form. It is also a helpful reminder to keep the password for the in person meetings. 
 
 
-![screenshot](documentation/confirmation.PNG)
+![screenshot](documentation/confirmation.png)
 
 
 ### Future Features
@@ -201,8 +201,6 @@ Link to the Primary Pigment whatsapp group
     - this will help those who are unsure to join
 - Mental health and Proffonial artist joining and infutmation page
     - This will help those who want to provide a service within the community to ensure safe practices and propper technquiies are being applied.
-
-## Tools & Technologies Used
 
 
 ## Tools & Technologies Used
@@ -270,16 +268,7 @@ The only major difference i have see is when i the site is live using an apple p
 
 ## Credits
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-In this section you need to reference where you got your content, media, and extra help from.
-It is common practice to use code from other repositories and tutorials,
-however, it is important to be very specific about these sources to avoid plagiarism.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
 ### Content
-
 
 | Source | Location | Notes |
 | --- | --- | --- |
@@ -287,18 +276,26 @@ however, it is important to be very specific about these sources to avoid plagia
 | [Chris Beams](https://chris.beams.io/posts/git-commit) | version control | "How to Write a Git Commit Message" |
 | [Code Institute](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+2023_Q2/courseware/e805068059af42af87681032aa64053f/7525117e5cd144daa2a7b0c57843bbee/) | Setting up the basic HTML structure: Part 1 | 
 | [Sentry](https://sentry.io/answers/how-do-i-auto-resize-an-image-to-fit-a-div-container/#:~:text=To%20fix%20this%2C%20we%20can,contain%E2%80%9D%20and%20%E2%80%9Ccover%E2%80%9D.) | Resize Image |
-| [StackOverflow] (https://stackoverflow.com/questions/16670931/hide-scroll-bar-but-while-still-being-able-to-scroll) |Hide Scrollbar|
-| [W3Schools](https://www.w3schools.com/howto/howto_css_modals.asp) | contact page | interactive pop-up (modal) |
-| [W3Schools](https://www.w3schools.com/css/css3_variables.asp) | entire site | how to use CSS :root variables |
+| [StackOverflow](https://stackoverflow.com/questions/16670931/hide-scroll-bar-but-while-still-being-able-to-scroll) |Hide Scrollbar |
 | [W3Schools](https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp) | entire site | how to custom scrollbar |
-| [Flexbox Froggy](https://flexboxfroggy.com/) | entire site | modern responsive layouts |
-| [Grid Garden](https://cssgridgarden.com) | entire site | modern responsive layouts |
-| [YouTube](https://www.youtube.com/watch?app=desktop&v=b6uLtL8M5nc) | responsive navbar | used idea for navbar|
 | [YouTube](https://www.youtube.com/watch?v=BlSp2ertu_8) | Hide Scrollbar | tutorial hide scrollbar |
-
+| [Images](https://www.bing.com/create) | entire site | used for creating images |
+| [Content Design](https://tobiasahlin.com/blog/common-flexbox-patterns/#alternating-grid) | gallery page | alternating gallery |
+| [Page and Color Design](https://www.youtube.com/watch?v=KAG5wNPdoTw) | background | where I leard about Gradient color |
+| [Layout Design](https://www.godaddy.com/resources/skills/how-to-build-a-3-page-website) | entire site | used for gathering ideas |
+| [Layout Design](https://en.99designs.de/web-design/contests/page-website-template-46414) | entite site | used for gathering ideas |
+| [RBGA Color Picker](https://rgbacolorpicker.com/) used for styleing content.
+| [CSS Color Picker](https://www.google.com/) | entire site | used for picking color or fonts and background |
+| [Gradient Color Picker](https://cssgradient.io/) | background | used for backround color |
+| [CSS SCROLLBAR](http://youtube.com) | entire site | used to learn how to hide scrollbars |
+| [Html Responsive Form](https://www.w3schools.com/howto/howto_css_responsive_form.asp) | contact pgae | Used for the basic outline for a form |
+| [Input type password](https://www.w3schools.com/tags/att_input_type_password.asp) | contact page | Used for putting a passwpord in my form |
+| [Styling Form](https://www.youtube.com/watch?v=okbByPWS1Xc) | contact form | Used for ideas and css styling |
+| [Transitions](https://www.w3schools.com/css/css3_transitions.asp) | contact form | Used to for transitions for form |
+| [Image Converter](http://https://www.freeconvert.com/webp-converter) | gallery page | Used to covert images to webp |
+| [Typing page content](https://www.google.com/docs/about/) | entire site | Used for spell check for the text |
 
 ### Media
-
 
 | Source | Location | Type | Notes |
 | --- | --- | --- | --- |
@@ -308,19 +305,11 @@ however, it is important to be very specific about these sources to avoid plagia
 
 ### Acknowledgements
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Use this space to provide attribution to any supports that helped, encouraged, or supported you throughout the development stages of this project.
-A few examples have been provided below to give you some ideas.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-- I would like to thank my awesome Code Institute mentor I really appriciate all that he has done for me, [Tim Nelson](https://github.com/TravelTimN) for their support         throughout the development of this project.
+- I would like to thank my awesome Code Institute mentor I really appriciate all that he has done for me, [Tim Nelson](https://github.com/TravelTimN) for their support throughout the development of this project.
 - I would like to thank the [Code Institute](https://codeinstitute.net) tutor team for their assistance with troubleshooting and debugging some project issues.
 - I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support; it kept me going during periods of self doubt and imposter syndrome.
 - I would like to thank my partner Coleen and my 3 children Lucille Mo and Octiavio, for believing in me, and allowing me to make this transition into software development.
 - I would like to thank Agentur für Arbeit, for supporting me in my career development change towards becoming a software developer.
-TESTING.md 
 
 
 # Testing
