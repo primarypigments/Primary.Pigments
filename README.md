@@ -486,12 +486,12 @@ from the respective feature.
 
 | User Story | Screenshot |
 | --- | --- |
-| As a new site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/feature01.png) |
-| As a new site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/feature02.png) |
-| As a new site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/feature03.png) |
-| As a returning site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/feature04.png) |
-| As a returning site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/feature05.png) |
-| As a returning site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/feature06.png) |
+| As a new site user, I would like to nurtrue my creativity, so that I can better express myself. | ![screenshot](documentation/site_user_creativity.png) |
+|As a new site user, I would like to help people because I am a psycologist , so that I can find new ways of treating my patince. | ![screenshot](documentation/site_user_psycologist.png) |
+| As a new site user, I would like to try a new approch to working through my trauma, so that I can appricate the present moment.| ![screenshot](documentation/site_user_approch.png/feature03.png) |
+| As a returning site user, I would like to share this community to my friends, so that I can have friends who can join me. | ![screenshot](documentation/social_media.png) |
+| As a returning site user, I would like to look at the painting I made, so that I can so share the paintings to my social media. | ![screenshot](documentation/site_user_share.png) |
+| As a returning site user, I would like to look at the beautiful paintings again , so that I can build the curage to join. | ![screenshot](documentation/site_user_paintings.png) |
 | As a site administrator, I should be able to ____________, so that I can ____________. | ![screenshot](documentation/feature07.png) |
 | As a site administrator, I should be able to ____________, so that I can ____________. | ![screenshot](documentation/feature08.png) |
 | As a site administrator, I should be able to ____________, so that I can ____________. | ![screenshot](documentation/feature09.png) |
