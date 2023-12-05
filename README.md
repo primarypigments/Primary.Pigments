@@ -281,15 +281,15 @@ The only major difference i have see is when i the site is live using an apple p
 | [YouTube](https://www.youtube.com/watch?v=BlSp2ertu_8) | Hide Scrollbar | tutorial hide scrollbar |
 | [Images](https://www.bing.com/create) | entire site | used for creating images |
 | [Content Design](https://tobiasahlin.com/blog/common-flexbox-patterns/#alternating-grid) | gallery page | alternating gallery |
-| [Page and Color Design](https://www.youtube.com/watch?v=KAG5wNPdoTw) | background | where I leard about Gradient color |
+| [Page and Color Design](https://www.youtube.com/watch?v=KAG5wNPdoTw) | background | where I learned about Gradient color |
 | [Layout Design](https://www.godaddy.com/resources/skills/how-to-build-a-3-page-website) | entire site | used for gathering ideas |
-| [Layout Design](https://en.99designs.de/web-design/contests/page-website-template-46414) | entite site | used for gathering ideas |
-| [RBGA Color Picker](https://rgbacolorpicker.com/) used for styleing content.
+| [Layout Design](https://en.99designs.de/web-design/contests/page-website-template-46414) | entire site | used for gathering ideas |
+| [RBGA Color Picker](https://rgbacolorpicker.com/) | entire site | used for styling content |
 | [CSS Color Picker](https://www.google.com/) | entire site | used for picking color or fonts and background |
-| [Gradient Color Picker](https://cssgradient.io/) | background | used for backround color |
+| [Gradient Color Picker](https://cssgradient.io/) | background | used for background color |
 | [CSS SCROLLBAR](http://youtube.com) | entire site | used to learn how to hide scrollbars |
-| [Html Responsive Form](https://www.w3schools.com/howto/howto_css_responsive_form.asp) | contact pgae | Used for the basic outline for a form |
-| [Input type password](https://www.w3schools.com/tags/att_input_type_password.asp) | contact page | Used for putting a passwpord in my form |
+| [Html Responsive Form](https://www.w3schools.com/howto/howto_css_responsive_form.asp) | contact page | Used for the basic outline for a form |
+| [Input type password](https://www.w3schools.com/tags/att_input_type_password.asp) | contact page | Used for putting a password in my form |
 | [Styling Form](https://www.youtube.com/watch?v=okbByPWS1Xc) | contact form | Used for ideas and css styling |
 | [Transitions](https://www.w3schools.com/css/css3_transitions.asp) | contact form | Used to for transitions for form |
 | [Image Converter](http://https://www.freeconvert.com/webp-converter) | gallery page | Used to covert images to webp |
@@ -301,16 +301,15 @@ The only major difference i have see is when i the site is live using an apple p
 | --- | --- | --- | --- |
 | [Favicon Generator](https://realfavicongenerator.net/favicon_result?file_id=p1hggvtne11k221od61hr51qbalja6) | entire site | image | favicon on all pages |
 | [Hero Image](https://dribbble.com/shots/19877346-Depression/attachments/14975065?mode=media) | entire site | image | hero image for home page |
-| [Website Images](https://www.bing.com/images/create?FORM=GENILP) | enitre site | images | all images for website except Hero image, can not provide every link to all the images i used do to the images are tied to my peronal microsoft account |
+| [Website Images](https://www.bing.com/images/create?FORM=GENILP) | entire site | images | all images for website except Hero image, can not provide every link to all the images i used do to the images are tied to my personal Microsoft account |
 
 ### Acknowledgements
 
-- I would like to thank my awesome Code Institute mentor I really appriciate all that he has done for me, [Tim Nelson](https://github.com/TravelTimN) for their support throughout the development of this project.
+- I would like to thank my awesome Code Institute mentor I really appreciate all that he has done for me, [Tim Nelson](https://github.com/TravelTimN) for their support throughout the development of this project.
 - I would like to thank the [Code Institute](https://codeinstitute.net) tutor team for their assistance with troubleshooting and debugging some project issues.
 - I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support; it kept me going during periods of self doubt and imposter syndrome.
 - I would like to thank my partner Coleen and my 3 children Lucille Mo and Octiavio, for believing in me, and allowing me to make this transition into software development.
 - I would like to thank Agentur für Arbeit, for supporting me in my career development change towards becoming a software developer.
-
 
 # Testing
 
