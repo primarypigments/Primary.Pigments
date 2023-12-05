@@ -104,8 +104,7 @@ Contact
 Gallery
   - ![screenshot](documentation/wireframes/wireframe_desktop_confirmation.png)
 
-etc.
-  - repeat for any remaining mobile wireframes
+
 
 </details>
 
@@ -126,8 +125,6 @@ Contact
 Gallery
   - ![screenshot](documentation/wireframes/wireframe_tablet_confirmation.png)
 
-etc.
-  - repeat for any remaining tablet wireframes
 
 </details>
 
@@ -148,6 +145,7 @@ Contact
 Gallery
   - ![screenshot](documentation/wireframes/wireframe_smartphone_confirmation.png)
 
+</details>
 
 ## Features
 
