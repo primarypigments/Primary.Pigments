@@ -48,10 +48,10 @@ When you add a colour to the palette, the URL is dynamically updated, making it 
 
 I used [Google](https://www.w3schools.com/colors/colors_picker.asp) to generate my colour palette.
 
-![screenshot](documentation/color/color_#272b54.png)
-![screenshot](documentation/color/color_#f6f7f2.png)
+![screenshot](documentation/color/color_272b54.png)
+![screenshot](documentation/color/color_f6f7f2.png)
 ![screenshot](documentation/color/linear_gradient.png)
-![screenshot](documentation/color/color_#4d4f47.png.png)
+![screenshot](documentation/color/color_4d4f47.png.png)
 
 ### Typography
 
