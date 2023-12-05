@@ -151,43 +151,42 @@ Gallery
 
 ### Existing Features
 
-- **Navbar feature #1**
+- **Navbar**
 
     
  The navigation bar allows you the opportunity to prioritize the content you want visitors to read. It also enables you to take your visitor on a journey, from the most important pages.
 
 ![screenshot](documentation/navbar.png)
 
-- *Hero image**
+-**Hero image**
 
-    - Our hero image adds a personal touch that immediately builds credibility and trust for our brand. Because people are highly visual, having high-quality, fullscreen imagery at the top of your page can help create a positive first impressin.We also added our location to the image so that the users know immediately where we are located.
+- Our hero image adds a personal touch that immediately builds credibility and trust for our brand. Because people are highly visual, having high-quality, fullscreen imagery at the top of your page can help create a positive first impressin.We also added our location to the image so that the users know immediately where we are located.
 
 
 ![screenshot](documentation/hero.png)
 
 - **Social Media Link Bar**
 
-    - A Social Media Link Bar helps us increase brand awareness, increase engagement, help grow followers, and increase accessibility.
+- A Social Media Link Bar helps us increase brand awareness, increase engagement, help grow followers, and increase accessibility.
 
 ![screenshot](documentation/social_media.png)
 
 **Contact Form**
 
-    - Our contact form is important to the user because it gives them the option to join immediately. This section is also fully tested and sends a confirmation back
+- Our contact form is important to the user because it gives them the option to join immediately. This section is also fully tested and sends a confirmation back
 
-!
 
 ![screenshot](documentation/contact_form.png)
 
 **Contact Form Reminder**
 
-    - This future is impotant for the user becasue it reminds the user when they forget to fill out one of the sections.
+- This future is impotant for the user becasue it reminds the user when they forget to fill out one of the sections.
 
 ![screenshot](documentation/contact_form_reminder.png)
 
-**Title for feature #3**
+**Confirmation Page**
 
-    -Confirmation page can work as an indicator of successful contact. One of our users may send us a message using the online form. It is also a helpful reminder to keep the password for the in person meetings. 
+-Confirmation page can work as an indicator of successful contact. One of our users may send us a message using the online form. It is also a helpful reminder to keep the password for the in person meetings. 
 
 
 ![screenshot](documentation/confirmation.PNG)
@@ -206,39 +205,15 @@ Link to the Primary Pigment whatsapp group
 ## Tools & Technologies Used
 
 
-TOOLS and Technoligies used
+## Tools & Technologies Used
 
-- [Images](https://www.bing.com/create) used for creating images
-- [Content Design](https://tobiasahlin.com/blog/common-flexbox-patterns/#alternating-grid) used for Gallerey
-- [Page and Color Design](https://www.youtube.com/watch?v=KAG5wNPdoTw) where I  leard about Gradient color
-- [Layout Design](https://www.godaddy.com/resources/skills/how-to-build-a-3-page-website) used for gathering ideas
-- [Layout Design](https://en.99designs.de/web-design/contests/page-website-template-46414) used for gathering ideas
-- [RBGA Color Picker](https://rgbacolorpicker.com/) used for styleing content.
-- [CSS Color Picker](https://www.google.com/) used for picking color or fonts and background.
-- [Gradient Color Picker](https://cssgradient.io/) used for backround color.
 - [HTML](https://en.wikipedia.org/wiki/HTML) used for the main site content.
 - [CSS](https://en.wikipedia.org/wiki/CSS) used for the main site design and layout.
-- [CSS :root variables](https://www.w3schools.com/css/css3_variables.asp) used for reusable styles throughout the site.
 - [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) used for an enhanced responsive layout.
-- [CSS Grid](https://www.w3schools.com/css/css_grid.asp) used for an enhanced responsive layout.
-- [GitPod](https://www.gitpod.io/) used for version control. (`git add`, `git commit`, `git push`)
+- [Git](https://www.atlassian.com/git) used for version control. (`git add`, `git commit`, `git push`)
 - [GitHub](https://github.com) used for secure online code storage.
 - [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site.
 - [Gitpod](https://gitpod.io) used as a cloud-based IDE for development.
-- [Bootstrap](https://getbootstrap.com) used as the front-end CSS framework for modern responsiveness and pre-built components.
-- [Materialize](https://materializecss.com) used as the front-end CSS framework for modern responsiveness and pre-built components.
-- [Flask](https://flask.palletsprojects.com) used as the Python framework for the site.
-- [CSS SCROLLBAR](http://youtube.com) used to learn how to hide scrollbars.
-- [Html Responsive Form](https://www.w3schools.com/howto/howto_css_responsive_form.asp) Used for the basic outline for a form.
-- [Input type password](https://www.w3schools.com/tags/att_input_type_password.asp) Used for putting a passwpord in my form.
-- [Styling Form](https://www.youtube.com/watch?v=okbByPWS1Xc) Used for ideas and css styling
-- [Transitions](https://www.w3schools.com/css/css3_transitions.asp) Used to for transitions for form.
-- [Image Convetrer](http://https://www.freeconvert.com/webp-converter) Used to covert images to webp.
-- [Typing page content](https://www.google.com/docs/about/) Used for spell check for the text-
-
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
 
 
 ## Testing
