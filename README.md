@@ -1,6 +1,5 @@
 # [PRIMARY.PIGMENTS](https://primarypigments.github.io/Primary.Pigments)
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
 I created Primary Pigments to fill a need in the community.  There are many people who are in need of support or wanting to create but do not have access to an option that is simple and local.
 
@@ -44,12 +43,7 @@ linear-gradient(90deg, rgba(240, 239, 239, 1) 0%, rgba(246, 247, 242, 1) 22%, rg
 - `#4d4f47` : This is used for shadow.
 
 
-
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-
 When you add a colour to the palette, the URL is dynamically updated, making it easier for you to return back to your colour palette later if needed.
-
 
 
 I used [Google](https://www.w3schools.com/colors/colors_picker.asp) to generate my colour palette.
@@ -81,7 +75,7 @@ As for icons I decided to use for my website [Font Awesome](https://fontawesome.
 
 - As a returning site user, I would like to join the commmunity, so that I can start something new.
 - As a returning site user, I would like to share this community to my friends, so that I can have friends who can join me.
-- As a returning site user, I would like to look up the phone number to Primary Pigments, so that I can retrieve my password, and join the next meeting.
+- As a returning site user, I would like to look up the send a message to Primary Pigments, so that I can retrieve my password, and join the next meeting.
 - As a returning site user, I would like to look at the painting I made, so that I can so share the paintings to my social media.
 - As a returning site user, I would like to look at the beautiful paintings again , so that I can build the curage to join.
 
@@ -89,31 +83,14 @@ As for icons I decided to use for my website [Font Awesome](https://fontawesome.
 
 ## Wireframes
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-In this section, display your wireframe screenshots using a Markdown `table`.
-Instructions on how to do Markdown `tables` start on line #213 on this site: https://pandao.github.io/editor.md/en.html
-
-Alternatively, dropdowns are a way to condense several wireframes into a collapsible menu to save space.
-Dropdowns in Markdown are considered some of the only acceptable HTML components that are allowed for assessment purposes.
-
-**IMPORTANT**! **IMPORTANT**! **IMPORTANT**!
-The example below uses the `details` and `summary` code elements.
-However, for these scripts to work, I've had to add spaces within the `< >` elements.
-
-You MUST remove these spaces for it to work properly on your own README/TESTING files.
-Remove the spaces within the `< >` brackets for the `details` and `summary` code elements,
-for the Mobile, Tablet, and Desktop wireframes.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
+ 
 To follow best practice, wireframes were developed for mobile, tablet, and desktop sizes.
 I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wireframes.
 
 ### Desktop Wireframes
 
-< details >
-< summary > Click here to see the Mobile Wireframes < / summary >
+<details>
+<summary> Click here to see the Desktop Wireframes </summary>
 
 Home
   - ![screenshot](documentation/wireframes/wireframe_desktop_home.png)
@@ -130,12 +107,12 @@ Gallery
 etc.
   - repeat for any remaining mobile wireframes
 
-< / details >
+</details>
 
 ### Tablet Wireframes
 
-< details >
-< summary > Click here to see the Tablet Wireframes < / summary >
+<details>
+<summary> Click here to see the Tablet Wireframes </summary>
 
 Home
   - ![screenshot](documentation/wireframes/wireframe_tablet_home.png)
@@ -152,12 +129,12 @@ Gallery
 etc.
   - repeat for any remaining tablet wireframes
 
-< / details >
+</details>
 
-### Smartphone Wireframes
+### Mobile Wireframes
 
-< details >
-< summary > Click here to see the Desktop Wireframes < / summary >
+<details>
+<summary> Click here to see the Mobile Wireframes </summary>
 
 Home
   - ![screenshot](documentation/wireframes/wireframe_smatphone_home.png)
@@ -237,7 +214,7 @@ TOOLS and Technoligies used
 - [Content Design](https://tobiasahlin.com/blog/common-flexbox-patterns/#alternating-grid) used for Gallerey
 - [Page and Color Design](https://www.youtube.com/watch?v=KAG5wNPdoTw) where I  leard about Gradient color
 - [Layout Design](https://www.godaddy.com/resources/skills/how-to-build-a-3-page-website) used for gathering ideas
-- [Layout Design]https://en.99designs.de/web-design/contests/page-website-template-46414) used for gathering ideas
+- [Layout Design](https://en.99designs.de/web-design/contests/page-website-template-46414) used for gathering ideas
 - [RBGA Color Picker](https://rgbacolorpicker.com/) used for styleing content.
 - [CSS Color Picker](https://www.google.com/) used for picking color or fonts and background.
 - [Gradient Color Picker](https://cssgradient.io/) used for backround color.
@@ -254,11 +231,12 @@ TOOLS and Technoligies used
 - [Materialize](https://materializecss.com) used as the front-end CSS framework for modern responsiveness and pre-built components.
 - [Flask](https://flask.palletsprojects.com) used as the Python framework for the site.
 - [CSS SCROLLBAR](http://youtube.com) used to learn how to hide scrollbars.
-- [Html Responsive Form] (https://www.w3schools.com/howto/howto_css_responsive_form.asp) Used for the basic outline for a form.
-- [Input type password] (https://www.w3schools.com/tags/att_input_type_password.asp) Used for putting a passwpord in my form.
-- [Styling Form] (https://www.youtube.com/watch?v=okbByPWS1Xc) Used for ideas and css styling
-- [Transitions] (https://www.w3schools.com/css/css3_transitions.asp) Used to for transitions for form.
-- [Image Convetrer] (http://https://www.freeconvert.com/webp-converter) Used to covert images to webp.
+- [Html Responsive Form](https://www.w3schools.com/howto/howto_css_responsive_form.asp) Used for the basic outline for a form.
+- [Input type password](https://www.w3schools.com/tags/att_input_type_password.asp) Used for putting a passwpord in my form.
+- [Styling Form](https://www.youtube.com/watch?v=okbByPWS1Xc) Used for ideas and css styling
+- [Transitions](https://www.w3schools.com/css/css3_transitions.asp) Used to for transitions for form.
+- [Image Convetrer](http://https://www.freeconvert.com/webp-converter) Used to covert images to webp.
+- [Typing page content](https://www.google.com/docs/about/) Used for spell check for the text-
 
 
 🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
@@ -566,12 +544,25 @@ Some examples:
 
     - Attempted fix: I tried to adjust the terminal size, but it only resizes the actual terminal, not the allowable area for text.
 
+
 - When validating HTML with a semantic `section` element, the validator warns about lacking a header `h2-h6`. This is acceptable.
 
-    ![screenshot](documentation/unfixed-bug03.png)
+    ![screenshot](documentation/unfixed_bug_section.png)
 
     - Attempted fix: this is a known warning and acceptable, and my section doesn't require a header since it's dynamically added via JS.
 
+    - When validating HTML with a semantic `H1` element, the validator warns to Consider using the h1 element as a top-level heading only`. This is acceptable.
+
+    ![screenshot](documentation/unfixed_bug_section.png)
+
+    - Attempted fix:  this is a known warning and acceptable, and my section doesn't require a changing the H1 header due to the size of the heading is appropriate for the intended use.
+ 
+ - When validating HTML with a semantic `section` element, the validator warns about lacking a header `h2-h6`. This is acceptable.
+
+    ![screenshot](documentation/unfixed_bug_h2.png)
+
+    - Attempted fix: this is a known warning and acceptable, and my section doesn't require a header since it's a contact form.
+-
 ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
 If you legitimately cannot find any unfixed bugs or warnings, then use the following sentence:
