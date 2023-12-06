@@ -2,9 +2,27 @@
 ​
 Return back to the [README.md](README.md) file.
 ​
-ithub.io%2FPrimary.Pigments%2Fgallery.html) | ![screenshot](documentation/html_validation_contact.png) | Section lacks heading warning |
+The Primary Pigments website has met the objectives set by all parties involved. It's responsive on various screen sizes, ensuring clean and crisp images without excessive empty space. Users can easily navigate and contact us through the contact form or social media. The content is concise, and the design is uncluttered, providing a user-friendly experience.
+​
+## Code Validation
+​
+### HTML
+​
+I have used the recommended [HTML W3C Validator](https://validator.w3.org) to validate all of my HTML files.
+​
+The URL will look something like this:
+​
+- https://validator.w3.org/nu/?doc=https%3A%2F%2Fprimarypigments.github.io%2FPrimary.Pigments%2Findex.html
+​
+​
+| Page | W3C URL | Screenshot | Notes |
+| --- | --- | --- | --- |
+| Home | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fprimarypigments.github.io%2FPrimary.Pigments%2Findex.html) | ![screenshot](documentation/html_validation_index.png) | Consider using the h1 element as a top-level heading only warning |
+| Gallery | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fprimarypigments.github.io%2FPrimary.Pigments%2Findex.html) | ![screenshot](documentation/html_validation_gallery.png) | obsolete iframe warnings |
+| Contact | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fprimarypigments.github.io%2FPrimary.Pigments%2Fgallery.html) | ![screenshot](documentation/html_validation_contact.png) | Section lacks heading warning |
 | Confirmation | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fprimarypigments.github.io%2FPrimary.Pigments%2Fconfirmation.html%3Ffirst_name%3Db%26last_name%3Db%26password%3Db%26confirm_password%3Db%26interest_select%3DCreativity%26email_address%3Db%26phone_number%3Db%26about%3Db%26postal_code%3Db%26agreed%3Don) | ![screenshot](documentation/html_validation_confirmation.png) | Section lacks heading warning |
 |
+​
 ​
 ### CSS
 ​
@@ -63,12 +81,9 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 | As a returning site user, I would like to share this community with my friends, so that I can have friends who can join me. | ![screenshot](documentation/social_media.png) |
 | As a returning site user, I would like to look at the paintings I made, so that I can share the paintings on my social media. | ![screenshot](documentation/site_user_share.png) |
 | As a returning site user, I would like to look at the beautiful paintings again , so that I can build the courage to join. | ![screenshot](documentation/site_user_paintings.png) |
-|As a site administrator, I should be able to use the navbar, so that I can navigate through the other pages on the website.
- | ![screenshot](documentation/navbar.png) |
-| As a site administrator, I should be able to click on an image on the gallery page, so that I can see the images in an enlarged view.
- | ![screenshot](documentation/gallery_view.png) |
-| As a site administrator, I should be able to be directed to our social media pages, so that I can ensure our community grows.
- | ![screenshot](documentation/social_media.png) |
+|As a site administrator, I should be able to use the navbar, so that I can navigate through the other pages on the website. | ![screenshot](documentation/navbar.png) |
+| As a site administrator, I should be able to click on an image on the gallery page, so that I can see the images in an enlarged view. | ![screenshot](documentation/gallery_view.png) |
+| As a site administrator, I should be able to be directed to our social media pages, so that I can ensure our community grows. | ![screenshot](documentation/social_media.png) |
 
 
 ## Bugs
