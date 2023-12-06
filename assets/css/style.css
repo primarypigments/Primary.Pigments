@@ -1,0 +1,596 @@
+/*Imported google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+
+/*Astericks wildcard selector to overide defalt styles by the browser*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", sans-serif;
+}
+
+/* Hide Scrollbar*/
+html::-webkit-scrollbar {
+    display: none;
+}
+
+/*Gerneral Styles*/
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /*project styles*/
+    font-family: "Roboto Mono", sans-serif;
+
+
+
+}
+
+p,
+h1,
+h2,
+h3 {
+    font-family: "Roboto Mono", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+
+}
+
+
+/*Header*/
+header {
+    background-color: #272b54;
+    color: #f6f7f2;
+    font-size: 20px;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 1px 1px #272b54;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    font-size: 5vw;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    font-family: "Roboto Mono", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+
+}
+
+
+#navbar {
+    font-size: 112%;
+    letter-spacing: 3.5px;
+    list-style-type: none;
+
+}
+
+nav {
+    position: absolute;
+    background-color: #272b54;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 1px 1px #4d4f47;
+    display: none;
+    top: 100%;
+
+
+}
+
+#navbar-toggle:checked~nav {
+    display: block;
+
+}
+
+#navbar-toggle {
+    display: none;
+}
+
+.navbar-toggle-label {
+    font-size: 3rem;
+}
+
+
+/*main creavtie self help */
+main {
+    background: linear-gradient(90deg, rgba(240, 239, 239, 1) 0%, rgba(246, 247, 242, 1) 22%, rgba(236, 242, 228, 1) 100%, rgba(246, 247, 242, 1) 100%);
+    flex: 1 0 auto;
+    margin-top: 115px;
+
+
+}
+
+/*coping img section*/
+#coping {
+    height: 600px;
+    width: 100%;
+    box-shadow: 2px 2px 2px 2px #4d4f47;
+    background: url("../images/hero-img.jpg") no-repeat center center/cover;
+    position: relative;
+
+}
+
+#coping-text {
+    background-color: rgba(61, 216, 255, 0.54);
+    font-size: 140%;
+    position: absolute;
+    bottom: 33px;
+    width: 75%;
+    padding: 20px 20px 10px 20px;
+    min-height: 170px;
+    border-radius: 25%;
+    text-align: center;
+    right: 20px;
+
+}
+
+#coping-text h2,
+h3 {
+    color: #f6f7f2;
+}
+
+/* Main content for "why"*/
+
+#why {
+    background: linear-gradient(90deg, rgba(240, 239, 239, 1) 0%, rgba(246, 247, 242, 1) 22%, rgba(236, 242, 228, 1) 100%, rgba(246, 247, 242, 1) 100%);
+}
+
+.why-text-heading {
+    margin-top: 65px;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    color: #272b54;
+    font-size: 45px;
+    padding: 100px 10px 100px 10px;
+}
+
+.why-text {
+    margin-top: 65px;
+    width: 70%;
+    text-align: justify;
+    margin: auto;
+    color: #272b54;
+    font-weight: 300;
+    text-transform: none;
+    padding: 50px 10px 50px 10px;
+}
+
+
+
+
+#goals-img {
+    margin: auto;
+    padding: 100px 10px 100px 10px;
+    width: 70%;
+    height: 200px;
+    background: url(../images/goals-img.jpg) no-repeat center center/cover;
+
+}
+
+#meetings-img {
+    margin: auto;
+    padding: 100px 10px 100px 10px;
+    width: 70%;
+    height: 200px;
+    background: url(../images/meetings-img.jpg) no-repeat center center/cover;
+
+}
+
+/*&&&%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Contact page*/
+
+.contact {
+
+    height: 100%;
+    width: 100%;
+    background: url("../images/stress-4.jpg") no-repeat center center/cover;
+    position: relative;
+
+}
+
+body {
+    background: #272b54;
+    padding: 0 10px;
+}
+
+.joinus {
+    max-width: 500px;
+    width: 100%;
+    background: #f6f7f2;
+    margin: 200px auto;
+    box-shadow: 2px 2px 4px 4px rgba(2, 3, 22, 0.125);
+    padding: 30px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #272b54;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.form {
+    width: 100%;
+}
+
+.form .input_field {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.form .input_field label {
+    width: 200px;
+    color: #272b54;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+/*Learned grouping from w3schools*/
+.input_field .input,
+.input_field .textarea {
+    width: 100%;
+    outline: none;
+    border: 1.5px solid #e7e7e7;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    /*Took me a while to firure transition correctly, youtube, w3schools*/
+    transition: all 2s ease;
+}
+
+
+/* IMPORTENT for Transition -border- */
+.input:focus,
+.textarea:focus,
+.custom_select select:focus {
+    border: 1px solid #272b54;
+}
+
+.textarea {
+    width: 100%;
+    height: 125px;
+    resize: none;
+}
+
+/* Drop down menu*/
+.interest_select {
+    position: relative;
+    width: 100%;
+    height: 37px;
+}
+
+option {
+    font-family: "Roboto Mono", sans-serif;
+}
+
+
+.interest_select:before {
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    border: 8px solid;
+    border-color: #272b54;
+    pointer-events: none;
+
+}
+
+p {
+    font-size: 14px;
+    color: #272b54;
+}
+
+/* CheckBox for Agree to Respect*/
+.agree {
+    width: 17px;
+    height: 17px;
+    position: relative;
+    display: block;
+    cursor: pointer;
+}
+
+.agree input[type="checkbox"] {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    opacity: 0;
+}
+
+.agree_mark {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #272b54;
+    display: block;
+    position: relative;
+}
+
+.agree_mark:before {
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 2px;
+    width: 5px;
+    height: 2px;
+    border: 2px solid;
+    border-color: transparent transparent #f6f7f2 #f6f7f2;
+    transform: rotate(-45deg);
+    display: none;
+}
+
+.agree input[type="checkbox"]:checked~.agree_mark {
+    background: #272b54;
+}
+
+.agree input[type="checkbox"]:checked~.agree_mark:before {
+    display: block;
+}
+
+
+/*footer contact social media*/
+footer {
+    background-color: #272b54;
+    color: #f6f7f2;
+
+
+
+}
+
+.social {
+    color: #f6f7f2;
+}
+
+
+#online-community {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+
+}
+
+#online-community i {
+    font-size: 155%;
+    padding: 6%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/*Submit Button*/
+
+.btn {
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 15px;
+    border: 0px;
+    background: #272b54;
+    color: #f6f7f2;
+    cursor: pointer;
+    border-radius: 3px;
+    outline: none;
+}
+
+.btn:hover {
+    background: #272b54;
+}
+
+.input_field:last-child {
+    margin-bottom: 0;
+}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Gallery Page Content*/
+
+
+.gallery_text {
+    margin-top: 65px;
+    width: 70%;
+    text-align: justify;
+    margin: auto;
+    color: #272b54;
+    font-weight: 300;
+    text-transform: none;
+    font-size: large;
+
+    padding: 50px 10px 50px 10px;
+
+}
+
+#section_gallery {
+    margin-top: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.gallery-heading {
+    margin: auto;
+    margin-bottom: 100px;
+    text-align: center;
+    margin-top: 100px;
+    width: 100%;
+}
+
+
+.gallery-image {
+    margin: auto;
+    margin-bottom: 2%;
+    /* (100-32*3)/2 */
+    position: relative;
+
+}
+
+.gallery-image img {
+    object-fit: contain;
+    object-position: center;
+    height: 270px;
+    width: 270px;
+
+}
+
+
+/*  Tablets and up */
+@media screen and (min-width: 768px) {
+
+    /* Hide Scrollbar*/
+    html::-webkit-scrollbar {
+        display: none;
+    }
+
+    #logo {
+        font-size: 3vw;
+    }
+
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: 100rem;
+        padding-right: 1rem;
+        flex-basis: fit-content;
+
+
+    }
+
+
+    /*give navbar better spacing*/
+    li {
+        width: fit-content;
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
+
+    #navbar {
+        display: flex;
+    }
+
+    #navbar>li {
+        padding-left: 1rem;
+    }
+
+
+    .navbar-toggle-label {
+        display: none;
+
+    }
+
+
+    /*body, main, coping text*/
+    main {
+        margin: 0;
+    }
+
+    #coping-text {
+        width: 30%;
+        right: 55px;
+        text-align: center;
+        border-radius: 25%;
+    }
+
+    /* Why text ang images*/
+    .why-text {
+        margin-top: 100px;
+        width: 50%;
+        text-align: justify;
+        margin: auto;
+        padding: 50px 50px 100px 50px;
+    }
+
+
+
+
+    #goals-img {
+        margin: auto;
+        padding: 100px 10px 100px 10px;
+        width: 70%;
+        height: 700px;
+        background: url(../images/goals-img.jpg) no-repeat center center/cover;
+    }
+
+
+    #meetings-img {
+        margin: auto;
+        padding: 100px 10px 100px 10px;
+        width: 70%;
+        height: 700px;
+        background: url(../images/meetings-img.jpg) no-repeat center center/cover;
+
+    }
+
+    /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Gallery Page Content */
+
+    .gallery-heading {
+        margin: auto;
+        margin-bottom: 100px;
+        text-align: center;
+        margin-top: 205px;
+        width: 100%;
+
+    }
+
+}
+
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ Conrifmation Page*/
+
+.confirmation {
+
+    height: 100%;
+    width: 100%;
+    background: url("../images/found-img.jpg") no-repeat center center/cover;
+    position: relative;
+
+}
+
+/*laptops and up*/
+@media screen and (min-width: 992px) {
+
+    .ready:hover {
+        text-decoration: underline;
+
+    }
+
+    /*body, main, coping text*/
+
+
+    #coping-text {
+        width: 25%;
+        right: 55px;
+        border-radius: 25%;
+    }
+
+    /* Why and goals pic and text*/
+
+    .why-text {
+        width: 50%;
+        text-align: justify;
+        margin: auto;
+        padding: 100px 10px 100px 10px;
+
+    }
+
+
+}
