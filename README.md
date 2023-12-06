@@ -135,7 +135,7 @@ Home
   - ![screenshot](documentation/wireframes/wireframe_desktop_home.png)
 
 
-About
+Gallery
   - ![screenshot](documentation/wireframes/wireframe_desktop_gallery.png)
 
 
@@ -143,7 +143,7 @@ Contact
   - ![screenshot](documentation/wireframes/wireframe_desktop_contact.png)
 
 
-Gallery
+Confirmation
   - ![screenshot](documentation/wireframes/wireframe_desktop_confirmation.png)
 
 
