@@ -42,7 +42,7 @@ Recommended browsers to consider:
 ​
 I've tested my deployed project on multiple browsers to check for compatibility issues.
 ​
-| Browser | Home | About | Contact | etc | Notes |
+| Browser | Home | Gallery | Contact | Confirmation | Notes |
 | --- | --- | --- | --- | --- | --- |
 | Chrome | ![screenshot](documentation/browser/browser_chrome_home.png) | ![screenshot](documentation/browser/browser_chrome_gallery.png) | ![screenshot](documentation/browser/browser_chrome_contact.png) | ![screenshot](documentation/browser/browser_chrome_confirmation.png) | Works as expected |
 | Edge | ![screenshot](documentation/browser/browser_edge_home.png) | ![screenshot](documentation/browser/browser_edge_gallery.png) | ![screenshot](documentation/browser/browser_edge_contact.png) | ![screenshot](documentation/browser/browser_edge_confirmation.png) | Works as expected |
@@ -53,7 +53,7 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 ​
 I've tested my deployed project on multiple devices to check for responsiveness issues.
 ​
-| Device | Home | About | Contact | etc | Notes |
+| Device | Home | Gallery | Contact | Confirmation | Notes |
 | --- | --- | --- | --- | --- | --- |
 | Mobile (DevTools) | ![screenshot](documentation/responsive_home_mobile.png) | ![screenshot](documentation/responsive_gallery_mobile.png) | ![screenshot](documentation/responsive_contact_mobile.png) | ![screenshot](documentation/responsive_confirmation_mobile.png) | Works as expected |
 | Tablet (DevTools) | ![screenshot](documentation/responsive_home_tablet.png) | ![screenshot](documentation/responsive_gallery_tablet.png) | ![screenshot](documentation/responsive_contact_tablet.png) | ![screenshot](documentation/responsive_confirmation_tablet.png) | Works as expected |
