@@ -2,6 +2,7 @@
 ​
 Return back to the [README.md](README.md) file.
 ​
+
 The Primary Pigments website has met the objectives set by all parties involved. It's responsive on various screen sizes, ensuring clean and crisp images without excessive empty space. Users can easily navigate and contact us through the contact form or social media. The content is concise, and the design is uncluttered, providing a user-friendly experience.
 ​
 ## Code Validation
