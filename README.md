@@ -390,19 +390,19 @@ The only major difference i have see is when i the site is live using an apple p
 | [Markdown Builder](https://tim.2bn.dev/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
 | [Chris Beams](https://chris.beams.io/posts/git-commit) | Version control | "How to Write a Git Commit Message" |
 | [Code Institute](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+2023_Q2/courseware/e805068059af42af87681032aa64053f/7525117e5cd144daa2a7b0c57843bbee/) |  Header and Footer | | Setting up the basic HTML structure: Part 1 |
-| [Sentry](https://sentry.io/answers/how-do-i-auto-resize-an-image-to-fit-a-div-container/#:~:text=To%20fix%20this%2C%20we%20can,contain%E2%80%9D%20and%20%E2%80%9Ccover%E2%80%9D.) | Resize image | | "how to resize an image |
-| [StackOverflow](https://stackoverflow.com/questions/16670931/hide-scroll-bar-but-while-still-being-able-to-scroll) |Hide Scrollbar |
+| [Sentry](https://sentry.io/answers/how-do-i-auto-resize-an-image-to-fit-a-div-container/#:~:text=To%20fix%20this%2C%20we%20can,contain%E2%80%9D%20and%20%E2%80%9Ccover%E2%80%9D.) | Resize image | | "How to resize an image |
+| [StackOverflow](https://stackoverflow.com/questions/16670931/hide-scroll-bar-but-while-still-being-able-to-scroll) |Hide Scrollbar | | Hide scrollbar and still be able to scroll |
 | [W3Schools](https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp) | Entire site | how to custom scrollbar |
-| [YouTube](https://www.youtube.com/watch?v=BlSp2ertu_8) | Hide Scrollbar | tutorial hide scrollbar |
-| [Images](https://www.bing.com/create) | Entire site | used for creating images |
+| [YouTube](https://www.youtube.com/watch?v=BlSp2ertu_8) | Hide Scrollbar | Tutorial hide scrollbar |
+| [Images](https://www.bing.com/create) | Entire site | Used for creating images |
 | [Content Design](https://tobiasahlin.com/blog/common-flexbox-patterns/#alternating-grid) | Gallery Page | alternating gallery |
-| [Page and Color Design](https://www.youtube.com/watch?v=KAG5wNPdoTw) | Background | where I learned about Gradient color |
-| [Layout Design](https://www.godaddy.com/resources/skills/how-to-build-a-3-page-website) | Entire site | used for gathering ideas |
-| [Layout Design](https://en.99designs.de/web-design/contests/page-website-template-46414) | Entire site | used for gathering ideas |
-| [RBGA Color Picker](https://rgbacolorpicker.com/) | Entire site | used for styling content |
-| [CSS Color Picker](https://www.google.com/) | Entire site | used for picking color or fonts and background |
-| [Gradient Color Picker](https://cssgradient.io/) | Background | used for background color |
-| [CSS SCROLLBAR](http://youtube.com) | Entire site | used to learn how to hide scrollbars |
+| [Page and Color Design](https://www.youtube.com/watch?v=KAG5wNPdoTw) | Background | Where I learned about Gradient color |
+| [Layout Design](https://www.godaddy.com/resources/skills/how-to-build-a-3-page-website) | Entire site | Used for gathering ideas |
+| [Layout Design](https://en.99designs.de/web-design/contests/page-website-template-46414) | Entire site | Used for gathering ideas |
+| [RBGA Color Picker](https://rgbacolorpicker.com/) | Entire site | Used for styling content |
+| [CSS Color Picker](https://www.google.com/) | Entire site | U for picking color or fonts and background |
+| [Gradient Color Picker](https://cssgradient.io/) | Background | Used for background color |
+| [CSS SCROLLBAR](http://youtube.com) | Entire site | Used to learn how to hide scrollbars |
 | [Html Responsive Form](https://www.w3schools.com/howto/howto_css_responsive_form.asp) | Contact page | Used for the basic outline for a form |
 | [Input type password](https://www.w3schools.com/tags/att_input_type_password.asp) | Contact page | Used for putting a password in my form |
 | [Styling Form](https://www.youtube.com/watch?v=okbByPWS1Xc) | Contact form | Used for ideas and css styling |
@@ -410,7 +410,7 @@ The only major difference i have see is when i the site is live using an apple p
 | [Image Converter](http://https://www.freeconvert.com/webp-converter) | Callery page | Used to covert images to webp |
 | [Typing page content](https://www.google.com/docs/about/) | Entire site | Used for spell check for the text |
 | [Gallery View](https://fancyapps.com/fancybox/) > Entire site | Used to make the gallery view|
-| [Refresh Page](https://www.w3schools.com/tags/att_meta_http_equiv.asp) | Entire  | | < meta > tag for refresh  |
+| [Refresh Page](https://www.w3schools.com/tags/att_meta_http_equiv.asp) | Entire site| | < meta > tag for refresh  |
  
 ### Media
 
