@@ -40,13 +40,17 @@ Recommended browsers to consider:
 - [Safari](https://support.apple.com/downloads/safari)
 - [Opera](https://www.opera.com/download)
 ​
-I've tested my deployed project on multiple browsers to check for compatibility issues.
+- I've tested my deployed project on multiple browsers to check for compatibility issues.
 ​
 | Browser | Home | Gallery | Contact | Confirmation | Notes |
 | --- | --- | --- | --- | --- | --- |
+
 | Chrome | ![screenshot](documentation/browser/browser_chrome_home.png) | ![screenshot](documentation/browser/browser_chrome_gallery.png) | ![screenshot](documentation/browser/browser_chrome_contact.png) | ![screenshot](documentation/browser/browser_chrome_confirmation.png) | Works as expected |
+
 | Edge | ![screenshot](documentation/browser/browser_edge_home.png) | ![screenshot](documentation/browser/browser_edge_gallery.png) | ![screenshot](documentation/browser/browser_edge_contact.png) | ![screenshot](documentation/browser/browser_edge_confirmation.png) | Works as expected |
+
 | Safari | ![screenshot](documentation/browser/browser_safari_home.png) | ![screenshot](documentation/browser/browser_safari_gallery.png) | ![screenshot](documentation/browser/browser_safari_contact.png) | ![screenshot](documentation/browser/browser_safari_confirmation.png) | Minor CSS differences |
+
 | Opera | ![screenshot](documentation/browser/browser_opera_home.png) | ![screenshot](documentation/browser/browser_opera_gallery.png) | ![screenshot](documentation/browser/browser_opera_contact.png) | ![screenshot](documentation/browser/browser_opera_confirmation.png) | Minor differences |
 ​
 ## Responsiveness
