@@ -118,7 +118,7 @@ main {
     height: 600px;
     width: 100%;
     box-shadow: 2px 2px 2px 2px #4d4f47;
-    background: url("../images/hero-img.jpg") no-repeat center center/cover;
+    background: url("../images/hero.webp") no-repeat center center/cover;
     position: relative;
 
 }
@@ -177,7 +177,7 @@ h3 {
     padding: 100px 10px 100px 10px;
     width: 70%;
     height: 200px;
-    background: url(../images/goals-img.jpg) no-repeat center center/cover;
+    background: url(../images/goals-img.webp) no-repeat center center/cover;
 
 }
 
@@ -186,7 +186,7 @@ h3 {
     padding: 100px 10px 100px 10px;
     width: 70%;
     height: 200px;
-    background: url(../images/meetings-img.jpg) no-repeat center center/cover;
+    background: url(../images/meetings-img.webp) no-repeat center center/cover;
 
 }
 
@@ -196,7 +196,7 @@ h3 {
 
     height: 100%;
     width: 100%;
-    background: url("../images/stress-4.jpg") no-repeat center center/cover;
+    background: url("../images/stress-4.webp") no-repeat center center/cover;
     position: relative;
 
 }
@@ -528,7 +528,7 @@ footer {
         padding: 100px 10px 100px 10px;
         width: 70%;
         height: 700px;
-        background: url(../images/goals-img.jpg) no-repeat center center/cover;
+        background: url(../images/goals-img.webp) no-repeat center center/cover;
     }
 
 
@@ -537,7 +537,7 @@ footer {
         padding: 100px 10px 100px 10px;
         width: 70%;
         height: 700px;
-        background: url(../images/meetings-img.jpg) no-repeat center center/cover;
+        background: url(../images/meetings-img.webp) no-repeat center center/cover;
 
     }
 
@@ -560,7 +560,7 @@ footer {
 
     height: 100%;
     width: 100%;
-    background: url("../images/found-img.jpg") no-repeat center center/cover;
+    background: url(../images/found-img.webp) no-repeat center center/cover;
     position: relative;
 
 }
