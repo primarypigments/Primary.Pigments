@@ -165,7 +165,7 @@ Home
   - ![screenshot](documentation/wireframes/wireframe_tablet_home.png)
 
 
-About
+Gallery
   - ![screenshot](documentation/wireframes/wireframe_tablet_gallery.png)
 
 
@@ -173,7 +173,7 @@ Contact
   - ![screenshot](documentation/wireframes/wireframe_tablet_contact.png)
 
 
-Gallery
+Confirmation
   - ![screenshot](documentation/wireframes/wireframe_tablet_confirmation.png)
 
 
@@ -193,7 +193,7 @@ Home
   - ![screenshot](documentation/wireframes/wireframe_smatphone_home.png)
 
 
-About
+Gallery
   - ![screenshot](documentation/wireframes/wireframe_smartphone_gallery.png)
 
 
@@ -201,7 +201,7 @@ Contact
   - ![screenshot](documentation/wireframes/wireframe_smartphone_contact.png)
 
 
-Gallery
+Confirmation
   - ![screenshot](documentation/wireframes/wireframe_smartphone_confirmation.png)
 
 
