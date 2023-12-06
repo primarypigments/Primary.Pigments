@@ -389,8 +389,8 @@ The only major difference i have see is when i the site is live using an apple p
 | --- | --- | --- |
 | [Markdown Builder](https://tim.2bn.dev/markdown-builder) | README and TESTING | Tool to help generate the Markdown files |
 | [Chris Beams](https://chris.beams.io/posts/git-commit) | Version control | "How to Write a Git Commit Message" |
-| [Code Institute](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+2023_Q2/courseware/e805068059af42af87681032aa64053f/7525117e5cd144daa2a7b0c57843bbee/) |  Header and Footer | | Setting up the basic HTML structure Part 1 |
-| [Sentry](https://sentry.io/answers/how-do-i-auto-resize-an-image-to-fit-a-div-container/#:~:text=To%20fix%20this%2C%20we%20can,contain%E2%80%9D%20and%20%E2%80%9Ccover%E2%80%9D.) | Resize image | | "How to resize an image" |
+| [Code Institute](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+2023_Q2/courseware/e805068059af42af87681032aa64053f/7525117e5cd144daa2a7b0c57843bbee/) |  Header and Footer | Setting up the basic HTML structure Part 1 |
+| [Sentry](https://sentry.io/answers/how-do-i-auto-resize-an-image-to-fit-a-div-container/#:~:text=To%20fix%20this%2C%20we%20can,contain%E2%80%9D%20and%20%E2%80%9Ccover%E2%80%9D.) | Resize image | "How to resize an image" |
 | [StackOverflow](https://stackoverflow.com/questions/16670931/hide-scroll-bar-but-while-still-being-able-to-scroll) |Hide Scrollbar | | Hide scrollbar and still be able to scroll |
 | [W3Schools](https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp) | Entire site | "How to custom scrollbar" |
 | [YouTube](https://www.youtube.com/watch?v=BlSp2ertu_8) | Hide Scrollbar | Tutorial hide scrollbar |
@@ -410,7 +410,7 @@ The only major difference i have see is when i the site is live using an apple p
 | [Image Converter](http://https://www.freeconvert.com/webp-converter) | Callery page | Used to covert images to webp |
 | [Typing page content](https://www.google.com/docs/about/) | Entire site | Used for spell check for the text |
 | [Gallery View](https://fancyapps.com/fancybox/) | Entire site | Used to make the gallery view|
-| [Refresh Page](https://www.w3schools.com/tags/att_meta_http_equiv.asp) | Entire site| | meta  tag for refresh |
+| [Refresh Page](https://www.w3schools.com/tags/att_meta_http_equiv.asp) | Entire site| meta  tag for refresh |
  
 ### Media
 
