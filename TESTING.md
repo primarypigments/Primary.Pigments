@@ -73,7 +73,7 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 | Home | ![screenshot](documentation/lighthouse_home_mobile.png) | ![screenshot](documentation/lighthouse_home_desktop.png) | Some minor warnings |
 | Gallery | ![screenshot](documentation/lighthouse_gallery_mobile.png) | ![screenshot](documentation/lighthouse_gallery_desktop.png) | Some minor warnings |
 | Contact | ![screenshot](documentation/lighthouse_contact_mobile.png) | ![screenshot](documentation/lighthouse_contact_desktop.png) | Slow response time due to large images |
-| Confirmation | ![screenshot](documentation/lighthouse_confirmation_mobile.png) | Some minor warnings |  
+| Confirmation | ![screenshot](documentation/lighthouse_confirmation_mobile.png) |![screenshot](documentation/lighthouse_confirmation_desktop.png) | Some minor warnings |  
 ​
 ## User Story Testing
 ​
