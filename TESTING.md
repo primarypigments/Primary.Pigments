@@ -25,6 +25,8 @@ The URL will look something like this:
 
 I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate all of my CSS files.
 
+| Page | Jigsaw URL | Screenshot | Notes |
+| --- | --- | --- | --- |
 | Entire Sire | [W3C](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fprimarypigments.github.io%2FPrimary_Pigments%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) | ![screenshot](documentation/css_validation_home.png) | No Error Found. | |Known Warning  ::-webkit-scrollbar is a vendor extended pseudo-element |
 
 ## Browser Compatibility
@@ -80,7 +82,7 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
 - When validating HTML with a semantic `H1` element, the validator warns to Consider using the h1 element as a top-level heading only`. This is acceptable.
 
-    ![screenshot](documentation/unfixed_bug_section.png)
+    ![screenshot](documentation/unfixed_bug_h1.png)
 
     - Attempted fix: this is a known warning and acceptable, and my section doesn't require a changing the H1 header due to the size of the heading is appropriate for the intended use.
  
