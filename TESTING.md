@@ -17,8 +17,8 @@ The URL will look something like this:
 | Page | W3C URL | Screenshot | Notes |
 | --- | --- | --- | --- |
 | Home | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fprimarypigments.github.io%2FPrimary_Pigments%2Findex.html) | ![screenshot](documentation/html_validation_index.png) | Consider using the h1 element as a top-level heading only warning |
-| Gallery | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fprimarypigments.github.io%2FPrimary_Pigments%2Findex.html) | ![screenshot](documentation/html_validation_gallery.png) | obsolete iframe warnings |
-| Contact | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fprimarypigments.github.io%2FPrimary_Pigments%2Fgallery.html) | ![screenshot](documentation/html_validation_contact.png) | Section lacks heading warning |
+| Gallery | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fprimarypigments.github.io%2FPrimary_Pigments%2Fgallery.html) | ![screenshot](documentation/html_validation_gallery.png) | obsolete iframe warnings |
+| Contact | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fprimarypigments.github.io%2FPrimary_Pigments%2Fcontact.html) | ![screenshot](documentation/html_validation_contact.png) | Section lacks heading warning |
 | Confirmation | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fprimarypigments.github.io%2FPrimary_Pigments%2Fconfirmation.html%3Ffirst_name%3Db%26last_name%3Db%26password%3Db%26confirm_password%3Db%26interest_select%3DCreativity%26email_address%3Db%26phone_number%3Db%26about%3Db%26postal_code%3Db%26agreed%3Don) | ![screenshot](documentation/html_validation_confirmation.png) | Section lacks heading warning |
 
 ### CSS
