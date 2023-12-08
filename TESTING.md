@@ -13,7 +13,7 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 
 The URL will look something like this:
 
-- https://validator.w3.org/nu/?doc=https%3A%2F%2Fprimarypigments.github.io%2FPrimary.Pigments%2Findex.html
+- https://validator.w3.org/nu/?doc=https%3A%2F%2Fprimarypigments.github.io%2FPrimaryPigments%2Findex.html
 
 
 | Page | W3C URL | Screenshot | Notes |
