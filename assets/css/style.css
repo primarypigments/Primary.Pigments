@@ -173,6 +173,58 @@ h3 {
     background: url(../images/meetings-img.webp) no-repeat center center/cover;
 }
 
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Gallery Page Content*/
+
+.gallery_text {
+    margin-top: 65px;
+    width: 70%;
+    text-align: justify;
+    margin: auto;
+    color: #272b54;
+    font-weight: 300;
+    text-transform: none;
+    font-size: large;
+
+    padding: 50px 10px 50px 10px;
+}
+
+#section_gallery {
+    margin-top: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.gallery-heading {
+    margin: auto;
+    margin-bottom: 100px;
+    text-align: center;
+    margin-top: 100px;
+    width: 100%;
+}
+
+.gallery-image {
+    margin: auto;
+    margin-bottom: 2%;
+    /* (100-32*3)/2 */
+    position: relative;
+}
+
+.gallery-image img {
+    object-fit: contain;
+    object-position: center;
+    height: 270px;
+    width: 270px;
+}
+
 /*&&&%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Contact page*/
 
 .contact {
@@ -319,6 +371,27 @@ p {
     display: block;
 }
 
+/*Submit Button*/
+
+.btn {
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 15px;
+    border: 0px;
+    background: #272b54;
+    color: #f6f7f2;
+    cursor: pointer;
+    border-radius: 3px;
+    outline: none;
+}
+
+.btn:hover {
+    background: #272b54;
+}
+
+.input_field:last-child {
+    margin-bottom: 0;
+}
 
 /*footer contact social media*/
 footer {
@@ -345,80 +418,6 @@ footer {
     padding-bottom: 1rem;
 }
 
-/*Submit Button*/
-
-.btn {
-    width: 100%;
-    padding: 8px 10px;
-    font-size: 15px;
-    border: 0px;
-    background: #272b54;
-    color: #f6f7f2;
-    cursor: pointer;
-    border-radius: 3px;
-    outline: none;
-}
-
-.btn:hover {
-    background: #272b54;
-}
-
-.input_field:last-child {
-    margin-bottom: 0;
-}
-
-/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Gallery Page Content*/
-
-.gallery_text {
-    margin-top: 65px;
-    width: 70%;
-    text-align: justify;
-    margin: auto;
-    color: #272b54;
-    font-weight: 300;
-    text-transform: none;
-    font-size: large;
-
-    padding: 50px 10px 50px 10px;
-}
-
-#section_gallery {
-    margin-top: 200px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 100%;
-}
-
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 100%;
-}
-
-.gallery-heading {
-    margin: auto;
-    margin-bottom: 100px;
-    text-align: center;
-    margin-top: 100px;
-    width: 100%;
-}
-
-.gallery-image {
-    margin: auto;
-    margin-bottom: 2%;
-    /* (100-32*3)/2 */
-    position: relative;
-}
-
-.gallery-image img {
-    object-fit: contain;
-    object-position: center;
-    height: 270px;
-    width: 270px;
-}
-
 /*  Tablets and up */
 @media screen and (min-width: 768px) {
 
@@ -439,7 +438,6 @@ footer {
         padding-right: 1rem;
         flex-basis: fit-content;
     }
-
 
     /*give navbar better spacing*/
     li {
