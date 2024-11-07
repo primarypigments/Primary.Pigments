@@ -5,274 +5,144 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Primary Pigments</title>
-  <!--Favicon-->
+  <!-- Favicon -->
   <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
   <link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
-  <!--Style Sheet-->
+  <!-- Style Sheet -->
   <link rel="stylesheet" href="assets/css/style.css">
-  <!--Fancybox for Photo gallery-->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
 </head>
 
 <body>
-  <!--Header-->
+  <!-- Header -->
   <header>
-
     <a href="index.html">
-      <h1 id="logo">Primary Pigments </h1>
+      <h1 id="logo">Primary Pigments</h1>
     </a>
-
     <input type="checkbox" id="navbar-toggle" name="navbar-toggle">
     <label for="navbar-toggle" class="navbar-toggle-label"><i class="fa-solid fa-plus-minus"></i></label>
-
     <nav>
       <ul id="navbar">
-        <li>
-          <a href="index.html" class="ready">Home
-
-          </a>
-        </li>
-
-        <li>
-          <a href="gallery.html" class="ready">Gallery
-
-          </a>
-        </li>
-        <li><a href="contact.html" class="ready">Contact
-
-          </a>
-        </li>
+        <li><a href="index.html" class="ready">Home</a></li>
+        <li><a href="gallery.html" class="ready"> Audio Gallery</a></li>
+        <li><a href="contact.html" class="ready">Contact</a></li>
       </ul>
-
     </nav>
-
   </header>
 
-
-  <!-- Main Content Photo Gallery-->
+  <!-- Main Content Photo Gallery -->
   <main class="gallery">
-    <h1 class="gallery-heading"> Here you will Examine our Members Works of Art
-    </h1>
+    <h1 class="gallery-heading">Here you will Examine our Members Works of Art</h1>
     <p class="gallery_text">
-
-      These series of arts of work are manifested by our members inputting their feelings into their work. Many of these
-      paintings seem dark, but in fact these are beacons of light. How can this be? This is due to the fact the feelings
-      that have trapped them in moments of their lives now have been used for something positive. This action is the
-      first step for many to start moving forward and on to new chapter of life. It is good to feel everything you feel.
-      It is what makes us human. The important thin red line is what we do or how we use these feelings. Many of
-      we use our melancholy for self-destructive behavior. When we actively choose to use this feeling to create
-      something beautiful like these works of art, this creates a chain reaction of of using our energy for something
-      good. We hope you find yourself inspired. BE SURE TO CLICK OR TOUCH AN IMAGE TO ENTER GALLERY VIEW.
-
-
-
+      These series of arts of work are manifested by our members inputting their feelings into their work...
+      BE SURE TO CLICK OR TOUCH AN IMAGE TO ENTER GALLERY VIEW AND TO START/STOP AUDIO NOTES/UPDATES.
     </p>
+
     <section id="section_gallery">
-      <div class="gallery-image">
-        <a data-fancybox="gallery" href="assets/images/harmony-1.webp"
-          data-caption="Painting showing people creating harmony in societal and ecological change">
-          <img src="assets/images/harmony-1.webp"
-            alt="Painting showing people creating harmony in societal and ecological change">
-        </a>
-      </div>
-      <div class="gallery-image"><a data-fancybox="gallery" href="assets/images/harmony-2.webp"
-          data-caption="Painting showing people creating harmony in societal and ecological change">
-          <img src="assets/images/harmony-2.webp"
-            alt="Painting showing people creating harmony in societal and ecological change">
-        </a>
+      <!-- Gallery items with images and corresponding audio elements -->
+      <div class="gallery-image" onclick="openModal(0)">
+        <img src="assets/images/harmony-1.webp" alt="Painting showing people creating harmony in societal and ecological change">
+        <audio id="audio0" src="assets/audio/harmony-1.m4a"></audio>
       </div>
 
-      <div class="gallery-image"><a data-fancybox="gallery" href="assets/images/aggression-1.webp"
-          data-caption="Abstract portrait thick oil painting of aggression">
-          <img src="assets/images/aggression-1.webp" alt="Abstract portrait thick oil painting of aggression">
-        </a>
+      <div class="gallery-image" onclick="openModal(1)">
+        <img src="assets/images/aggression-1.webp" alt="Abstract portrait thick oil painting of aggression">
+        <audio id="audio1" src="assets/audio/aggression-1.m4a"></audio>
       </div>
 
-      <div class="gallery-image"><a data-fancybox="gallery" href="assets/images/aggression-2.webp"
-          data-caption="Abstract portrait thick oil painting of aggression">
-          <img src="assets/images/aggression-2.webp" alt="Abstract portrait thick oil painting of aggression">
-        </a>
-      </div>
-
-      <div class="gallery-image"><a data-fancybox="gallery" href="assets/images/aggression-3.webp"
-          data-caption="Abstract portrait thick oil painting of aggression">
-          <img src="assets/images/aggression-3.webp" alt="Abstract portrait thick oil painting of aggression">
-        </a>
-      </div>
-
-      <div class="gallery-image"> <a data-fancybox="gallery" href="assets/images/aggression-4.webp"
-          data-caption="Abstract portrait thick oil painting of aggression">
-          <img src="assets/images/aggression-4.webp" alt="Abstract portrait thick oil painting of aggression">
-        </a>
-      </div>
-
-      <div class="gallery-image"> <a data-fancybox="gallery" href="assets/images/confidence-1.webp"
-          data-caption="Painting of a child gaining self confidence">
-          <img src="assets/images/confidence-1.webp" alt="Painting of a child gaining self confidence">
-        </a>
-      </div>
-
-      <div class="gallery-image"><a data-fancybox="gallery" href="assets/images/confidence-2.webp"
-          data-caption="Painting of a child gaining self confidence">
-          <img src="assets/images/confidence-2.webp" alt="Painting of a child gaining self confidence">
-        </a>
-      </div>
-
-      <div class="gallery-image"> <a data-fancybox="gallery" href="assets/images/confidence-3.webp"
-          data-caption="Painting of a child gaining self confidence">
-          <img src="assets/images/confidence-3.webp" alt="Painting of a child gaining self confidence">
-        </a>
-      </div>
-      <div class="gallery-image"><a data-fancybox="gallery" href="assets/images/confidence-4.webp"
-          data-caption="Painting of a child gaining self confidence">
-          <img src="assets/images/confidence-4.webp" alt="Painting of a child gaining self confidence">
-        </a>
-      </div>
-
-
-      <div class="gallery-image"> <a data-fancybox="gallery" href="assets/images/depression-1.webp"
-          data-caption="Woman hands over face depression painted in watercolour">
-          <img src="assets/images/depression-1.webp" alt="Woman hands over face depression painted in watercolour">
-        </a>
-      </div>
-
-      <div class="gallery-image"><a data-fancybox="gallery" href="assets/images/depression-2.webp"
-          data-caption="Woman hands over face depression painted in watercolour">
-          <img src="assets/images/depression-2.webp" alt="Woman hands over face depression painted in watercolour">
-        </a>
-      </div>
-
-      <div class="gallery-image"><a data-fancybox="gallery" href="assets/images/depression.3.webp"
-          data-caption="Woman hands over face depression painted in watercolour">
-          <img src="assets/images/depression.3.webp" alt="Thick oil painting of a man becoming self aware">
-        </a>
-      </div>
-
-
-      <div class="gallery-image"><a data-fancybox="gallery" href="assets/images/depression-4.webp"
-          data-caption="Woman hands over face depression painted in watercolour">
-          <img src="assets/images/depression-4.webp" alt="Woman hands over face depression painted in watercolour">
-        </a>
-      </div>
-
-
-
-      <div class="gallery-image"><a data-fancybox="gallery" href="assets/images/self-aware-1.webp"
-          data-caption="Thick oil painting of a man becoming self aware">
-          <img src="assets/images/self-aware-1.webp" alt="Thick oil painting of a man becoming self aware">
-        </a>
-      </div>
-
-      <div class="gallery-image"> <a data-fancybox="gallery" href="assets/images/self-aware-2.webp"
-          data-caption="Thick oil painting of a man becoming self aware">
-          <img src="assets/images/self-aware-2.webp" alt="Thick oil painting of a man becoming self aware">
-        </a>
-      </div>
-
-      <div class="gallery-image"> <a data-fancybox="gallery" href="assets/images/self-aware-3.webp"
-          data-caption="Thick oil painting of a man becoming self aware">
-          <img src="assets/images/self-aware-3.webp" alt="Thick oil painting of a man becoming self aware">
-        </a>
-      </div>
-
-      <div class="gallery-image"><a data-fancybox="gallery" href="assets/images/self-aware-4.webp"
-          data-caption="Thick oil painting of a man becoming self aware">
-          <img src="assets/images/self-aware-4.webp" alt="Thick oil painting of a man becoming self aware">
-        </a>
-      </div>
-
-      <div class="gallery-image"><a data-fancybox="gallery" href="assets/images/trauma-1.webp"
-          data-caption="Water color painting of a child experiencing trauma from a car accident, the car crashed into a tree">
-          <img src="assets/images/trauma-1.webp"
-            alt="Water color painting of a child experiencing trauma from a car accident, the car crashed into a tree">
-        </a>
-      </div>
-
-      <div class="gallery-image"> <a data-fancybox="gallery" href="assets/images/trauma-2.webp"
-          data-caption="Water color painting of a child experiencing trauma from a car accident, the car crashed into a tree">
-          <img src="assets/images/trauma-2.webp"
-            alt="Water color painting of a child experiencing trauma from a car accident, the car crashed into a tree">
-        </a>
-      </div>
-
-      <div class="gallery-image"><a data-fancybox="gallery" href="assets/images/trauma-3.webp"
-          data-caption="Water color painting of a child experiencing trauma from a car accident, the car crashed into a tree">
-          <img src="assets/images/trauma-3.webp"
-            alt="Water color painting of a child experiencing trauma from a car accident, the car crashed into a tree">
-        </a>
-      </div>
-
-      <div class="gallery-image"><a data-fancybox="gallery" href="assets/images/stress-1.webp"
-          data-caption="Abstract thick oil painting of stress and pressure">
-          <img src="assets/images/stress-1.webp" alt="Abstract thick oil painting of stress and pressure">
-        </a>
-      </div>
-
-      <div class="gallery-image"> <a data-fancybox="gallery" href="assets/images/stress-2.webp"
-          data-caption="Abstract thick oil painting of stress and pressure">
-          <img src="assets/images/stress-2.webp" alt="Abstract thick oil painting of stress and pressure">
-        </a>
-      </div>
-
-      <div class="gallery-image"> <a data-fancybox="gallery" href="assets/images/stress-3.webp"
-          data-caption="Abstract thick oil painting of stress and pressure">
-          <img src="assets/images/stress-3.webp" alt="Abstract thick oil painting of stress and pressure">
-        </a>
-      </div>
-
-      <div class="gallery-image"><a data-fancybox="gallery" class="gallery-image" href="assets/images/stress-4.webp"
-          data-caption="Abstract thick oil painting of stress and pressure">
-          <img src="assets/images/stress-4.webp" alt="Abstract thick oil painting of stress and pressure">
-        </a>
-      </div>
+      <!-- Add more images and audio files as needed, incrementing the index (2, 3, etc.) -->
 
     </section>
-
   </main>
+
+  <!-- Modal for Image and Audio Control -->
+  <div id="modal" class="modal" onclick="exitModal(event)">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <div class="modal-content" onclick="event.stopPropagation()">
+      <button class="prev" onclick="changeImage(-1)">&#10094;</button>
+      <img id="modalImage" src="" alt="Enlarged view">
+      <button class="next" onclick="changeImage(1)">&#10095;</button>
+      <!-- Audio player with controls -->
+      <audio id="modalAudio" controls style="width: 100%; margin-top: 10px;">
+        <!-- Audio source will be set dynamically -->
+      </audio>
+    </div>
+  </div>
 
   <footer>
     <ul id="online-community">
-      <li>
-        <a class="social" href="http://www.facebook.com/" target="_blank" rel="noopener"
-          aria-label="Visit our community on facebook (opens in a new tab)">
-          <i class="fa-brands fa-square-facebook">
-          </i>
-        </a>
-      </li>
-      <li>
-        <a class="social" href="http://www.twitter.com/" target="_blank" rel="noopener"
-          aria-label="Visit our community on Twitter (opens in a new tab)">
-          <i class="fa-brands fa-square-x-twitter">
-          </i>
-        </a>
-      </li>
-      <li>
-        <a class="social" href="http://www.instagram.com/" target="_blank" rel="noopener"
-          aria-label="Visit our commumity on Instagram (opens in a new tab)">
-          <i class="fa-brands fa-square-instagram">
-          </i>
-        </a>
-      </li>
-      <li>
-        <a class="social" href="http://www.youtube.com/" target="_blank" rel="noopener"
-          aria-label="Visit our community on Youtube (opens in a new tab)">
-          <i class="fa-brands fa-youtube">
-          </i>
-        </a>
-      </li>
+      <li><a class="social" href="http://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit our community on Facebook (opens in a new tab)"><i class="fa-brands fa-square-facebook"></i></a></li>
+      <li><a class="social" href="http://www.twitter.com/" target="_blank" rel="noopener" aria-label="Visit our community on Twitter (opens in a new tab)"><i class="fa-brands fa-square-x-twitter"></i></a></li>
+      <li><a class="social" href="http://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit our community on Instagram (opens in a new tab)"><i class="fa-brands fa-square-instagram"></i></a></li>
+      <li><a class="social" href="http://www.youtube.com/" target="_blank" rel="noopener" aria-label="Visit our community on YouTube (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a></li>
     </ul>
   </footer>
 
-  <!--Link for font awesome ie social media-->
+  <!-- Link for font awesome -->
   <script src="https://kit.fontawesome.com/50c170cc26.js" crossorigin="anonymous"></script>
-  <!--Fancybox for Photo gallery-->
-  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+
+  <!-- JavaScript for Modal and Audio Control -->
   <script>
-    Fancybox.bind("[data-fancybox]", {});
+    const galleryImages = [
+      { imgSrc: 'assets/images/harmony-1.webp', audioSrc: 'assets/audio/harmony-1.m4a' },
+      { imgSrc: 'assets/images/aggression-1.webp', audioSrc: 'assets/audio/aggression-1.m4a' }
+      // Add more image and audio objects as needed
+    ];
+
+    let currentIndex = 0;
+
+    function openModal(index) {
+      currentIndex = index;
+      const { imgSrc, audioSrc } = galleryImages[currentIndex];
+
+      // Set modal image and audio
+      document.getElementById("modalImage").src = imgSrc;
+      const modalAudio = document.getElementById("modalAudio");
+      modalAudio.src = audioSrc;
+
+      // Show the modal
+      document.getElementById("modal").style.display = "flex";
+
+      // Play audio automatically
+      modalAudio.play();
+    }
+
+    function closeModal() {
+      // Hide the modal
+      document.getElementById("modal").style.display = "none";
+
+      // Pause and reset audio
+      const modalAudio = document.getElementById("modalAudio");
+      modalAudio.pause();
+      modalAudio.currentTime = 0;
+    }
+
+    function exitModal(event) {
+      // Close the modal when clicking outside the content area
+      if (event.target.id === "modal") {
+        closeModal();
+      }
+    }
+
+    function changeImage(direction) {
+      // Pause and reset the current audio
+      const modalAudio = document.getElementById("modalAudio");
+      modalAudio.pause();
+      modalAudio.currentTime = 0;
+
+      // Update the current index and loop if necessary
+      currentIndex = (currentIndex + direction + galleryImages.length) % galleryImages.length;
+
+      // Load new image and audio
+      const { imgSrc, audioSrc } = galleryImages[currentIndex];
+      document.getElementById("modalImage").src = imgSrc;
+      modalAudio.src = audioSrc;
+
+      // Play new audio automatically
+      modalAudio.play();
+    }
   </script>
 
 </body>
